@@ -1,0 +1,2362 @@
+[
+  {
+    "paper_id": "099d3fc8-2b5a-42f5-ada6-e630fc116ed3",
+    "title": "Solving the Discretization Gap in Magic Gate Networks",
+    "authors": [
+      {
+        "name": "Roger W. ..."
+      },
+      {
+        "name": "ETH ..."
+      }
+    ],
+    "overview": "This paper addresses the problem of discretization in magic gate networks, which is a critical issue in ...",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_184024.jpg"
+    ],
+    "created_at": "2025-12-31T14:20:16.642594",
+    "updated_at": "2025-12-31T14:55:01.660450",
+    "version": 1
+  },
+  {
+    "paper_id": "0c04b053-1429-4ae3-a513-9b6d9121cba7",
+    "title": "SutureBot: A Precision Framework & Benchmark For Autonomous End-to-End Suturing",
+    "authors": [
+      {
+        "name": "Jesse Haworth"
+      },
+      {
+        "name": "Joo-Tung Chen"
+      },
+      {
+        "name": "Nigel J.  W.  …"
+      },
+      {
+        "name": "Massoud …"
+      },
+      {
+        "name": "Christina …"
+      },
+      {
+        "name": "Axel …"
+      }
+    ],
+    "overview": "A new dexterous benchmark, featuring a long-horizon suture task for evaluating IL policies in a surgical environment.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_184153.jpg"
+    ],
+    "created_at": "2025-12-31T23:46:45.064065",
+    "updated_at": "2025-12-31T23:46:45.330168",
+    "version": 1
+  },
+  {
+    "paper_id": "0e51e13e-19ed-42cc-b72b-09308f02f3bd",
+    "title": "Learning Parameterized Skills from Demonstrations",
+    "authors": [
+      {
+        "name": "Vedant Gupta"
+      },
+      {
+        "name": "Haotian Fu"
+      },
+      {
+        "name": "Calvin Luo"
+      },
+      {
+        "name": "Yiding Jiang"
+      },
+      {
+        "name": "George Konidaris"
+      }
+    ],
+    "overview": "The paper presents a method for learning parameterized skills from demonstrations, which is a challenging problem in the field of machine learning and robotics. The method is based on a novel approach to learning from demonstrations, which is called DEPS (Discovering of Generalized Parameterized Skills). The method is evaluated on several tasks, including a robotic arm task and a human-robot interaction task. The results show that the method is able to learn complex skills from few demonstrations, and it is able to transfer these skills to new tasks.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_190104.jpg"
+    ],
+    "created_at": "2025-12-31T14:00:04.219386",
+    "updated_at": "2025-12-31T14:55:01.524923",
+    "version": 1
+  },
+  {
+    "paper_id": "0e881333-1550-4572-b882-cb756c1a62e3",
+    "title": "DynaGuide: Steering Diffusion Policies with Active Dynamic Guidance",
+    "authors": [
+      {
+        "name": "Maximilian Du"
+      },
+      {
+        "name": "Shuran Song"
+      }
+    ],
+    "overview": "DynaGuide leverages guidance from a dynamics model to steer the action generation process of a diffusion policy, leading to behavioral change without changing learned weights or requiring goal conditioning.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_184849.jpg"
+    ],
+    "created_at": "2025-12-31T14:20:50.144964",
+    "updated_at": "2025-12-31T14:55:01.669448",
+    "version": 1
+  },
+  {
+    "paper_id": "0e939c22-cdfb-4351-989e-594bd2fee83a",
+    "title": "Foundation Models for Scientific Discovery: From Paradigm Enhancement to Paradigm Transition",
+    "authors": [
+      {
+        "name": "Fan Liu"
+      },
+      {
+        "name": "Jindong Han"
+      },
+      {
+        "name": "Tengfei Liu"
+      },
+      {
+        "name": "Weijia Zhang"
+      },
+      {
+        "name": "Zhe-Rui Yang"
+      }
+    ],
+    "overview": "This paper explores the role of foundation models in scientific discovery, from paradigm enhancement to paradigm transition, and its impact on scientific research.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_182909.jpg"
+    ],
+    "created_at": "2025-12-31T14:19:08.013362",
+    "updated_at": "2025-12-31T14:55:01.643446",
+    "version": 1
+  },
+  {
+    "paper_id": "10e2a7c0-3ca0-4e9a-9cd1-da7ad505159d",
+    "title": "Why Masking Diffusion Works: Condition on the Jump Schedule for Improved Discrete Diffusion",
+    "authors": [
+      {
+        "name": "Alan N. Amir"
+      },
+      {
+        "name": "Nate Gravert"
+      },
+      {
+        "name": "Andrew G. Wilson"
+      }
+    ],
+    "overview": "If discrete diffusion gradually …",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_192052.jpg"
+    ],
+    "created_at": "2025-12-31T14:10:52.334333",
+    "updated_at": "2025-12-31T14:55:01.627448",
+    "version": 1
+  },
+  {
+    "paper_id": "15e596ab-2042-4d03-8f5f-d1092823b755",
+    "title": "Continual Optimization with Symmetry Teleportation for Multi-Task Learning",
+    "authors": [
+      {
+        "name": "Zhipeng Zhou"
+      },
+      {
+        "name": "Zigao Meng"
+      },
+      {
+        "name": "Pengcheng Wu"
+      },
+      {
+        "name": "Pelin Zhu"
+      },
+      {
+        "name": "Chunyan Ma"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of multi-task learning (MTL), where a single model is trained to perform multiple tasks simultaneously. MTL is important because it enables efficient learning of multiple tasks using a single model, reducing computational and storage demands.\n\n**Key Contributions**\nThe main contributions of this paper are:\n\n* A novel approach to MTL called Continual Optimization with Symmetry Teleportation (COST), which seeks an alternative loss-equivalent point on the loss landscape to reduce conflict.\n* A practical teleportation method using low-rank adapters (LoRA) to facilitate symmetry teleportation.\n* A historical trajectory reuse strategy to continually benefit from advanced optimizers.\n\n**Methodology**\nThe paper proposes a new approach to MTL optimization, which involves:\n\n* Using LoRA to facilitate symmetry teleportation and reduce conflict.\n* Designing convergent, loss-invariant objectives to promote progress.\n* Introducing a historical trajectory reuse strategy to continually benefit from advanced optimizers.\n\n**Results**\nThe paper presents extensive experiments on multiple mainstream datasets, including:\n\n* Achieving state-of-the-art performance on several MTL benchmarks.\n* Enhancing the performance of existing MTL methods by up to 10% on average.\n* Demonstrating the effectiveness of COST in reducing conflict and improving convergence.\n\n**Significance**\nThis work matters because it provides a novel approach to MTL optimization, which can improve the performance of MTL models. The proposed method, COST, is a plug-and-play solution that can enhance existing MTL methods, making it a significant contribution to the field of MTL.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Continual_Optimization_with_Symmetry_Teleportation_15e596ab.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2503.04046v1.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_181756.jpg"
+    ],
+    "created_at": "2025-12-27T08:38:52.186321",
+    "updated_at": "2025-12-28T11:24:49.644168",
+    "version": 1
+  },
+  {
+    "paper_id": "1c7fee99-d2ee-44d3-a5dd-29dbccaca5bf",
+    "title": "Understanding while Exploring: Semantics-Driven Active Mapping",
+    "authors": [
+      {
+        "name": "Lyan Chen"
+      },
+      {
+        "name": "Huangyuan Zhan"
+      },
+      {
+        "name": "Haorong Yin"
+      },
+      {
+        "name": "Yi Xu"
+      },
+      {
+        "name": "Philippos Mordohi"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of active semantic mapping, which is crucial for robotic autonomy in unknown environments. Effective exploration and understanding of both geometry and semantics are essential for robots to navigate and interact with their surroundings. Current approaches to semantic mapping are limited by their inability to determine the most informative path for the robot, leading to incomplete or suboptimal scene understanding.\n\n**Key Contributions**\nThe main contributions of this paper are:\n* The proposal of ActiveSGM, an active semantic mapping framework that predicts the informativeness of potential observations before execution.\n* The use of a 3D Gaussian Splatting (3DGS) mapping backbone, which integrates semantic-aware mapping and planning for active reconstruction.\n* A novel semantic exploration criterion that enhances semantic coverage and facilitates disambiguation across observations during exploration.\n* A sparse semantic representation that retains the top-k most probable categories, reducing memory overhead without sacrificing semantic richness.\n\n**Methodology**\nThe proposed method uses a 3DGS mapping backbone, which is combined with a semantic-aware mapping and planning module. The semantic exploration criterion is used to select the most informative views for the robot, and the sparse semantic representation is used to reduce memory overhead. The method also uses a pre-trained segmentation model to generate noisy semantic predictions, which are then refined progressively.\n\n**Results**\nThe experiments on the Replica and Matterport3D datasets show that ActiveSGM outperforms state-of-the-art methods in terms of mapping completeness, accuracy, and robustness to noisy semantic data. Specifically, ActiveSGM achieves a 25% improvement in mapping completeness and a 15% improvement in accuracy compared to the baseline method.\n\n**Significance**\nThis work matters because it provides a novel approach to active semantic mapping, which is essential for robotic autonomy in unknown environments. The proposed method can be used in a variety of applications, including autonomous navigation, object recognition, and scene understanding. The use of a 3DGS mapping backbone and a sparse semantic representation can also be applied to other areas of computer vision and robotics.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Understanding_while_Exploring__Semantics-Driven_Ac_1c7fee99.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.00225v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_183558.jpg"
+    ],
+    "created_at": "2025-12-27T08:52:41.731928",
+    "updated_at": "2025-12-28T11:24:53.206317",
+    "version": 1
+  },
+  {
+    "paper_id": "20d4952e-0cff-46a7-8760-46d4639b334a",
+    "title": "Fast Monte Carlo Tree Diffusion: 100x Speedup via Parallel Sparse Planning",
+    "authors": [
+      {
+        "name": "Jaeik Yoon"
+      },
+      {
+        "name": "Hyeonseok Cho"
+      },
+      {
+        "name": "Yoshua Bengio"
+      },
+      {
+        "name": "Sungjin Ahn"
+      }
+    ],
+    "overview": "The paper presents a new algorithm for fast Monte Carlo tree diffusion, which achieves a 100x speedup via parallel sparse planning. The algorithm is based on a new method for planning and exploring the tree, which is faster and more efficient than existing methods.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_125535.jpg"
+    ],
+    "created_at": "2025-12-31T23:41:25.510160",
+    "updated_at": "2025-12-31T23:46:45.234343",
+    "version": 1
+  },
+  {
+    "paper_id": "212832aa-a8cb-4385-a854-626e72133557",
+    "title": "Enhancing Safety in Reinforcement Learning with Human Feedback via Rectified Policy Optimization",
+    "authors": [
+      {
+        "name": "Xiyue Peng"
+      },
+      {
+        "name": "Hengguan Guo"
+      },
+      {
+        "name": "Jiawei Zhang"
+      },
+      {
+        "name": "Donggao Zou"
+      },
+      {
+        "name": "Ziyu Shao"
+      },
+      {
+        "name": "Honghao Wei"
+      },
+      {
+        "name": "Xin Liu"
+      }
+    ],
+    "overview": "This paper explores the problem of enhancing safety in reinforcement learning with human feedback via rectified policy optimization.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_185158.jpg"
+    ],
+    "created_at": "2025-12-31T13:57:11.566183",
+    "updated_at": "2025-12-31T14:55:01.494179",
+    "version": 1
+  },
+  {
+    "paper_id": "2cbfd4fc-f962-40ab-a644-8d39f8d1bbb4",
+    "title": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+    "authors": [
+      {
+        "name": "Shuang Zeng"
+      },
+      {
+        "name": "Xinyuan Chang"
+      },
+      {
+        "name": "Mengwei Xie"
+      },
+      {
+        "name": "Xinran Liu"
+      },
+      {
+        "name": "Yifan Bai"
+      },
+      {
+        "name": "Zheng Pan"
+      },
+      {
+        "name": "Mu Xu"
+      },
+      {
+        "name": "Xing Wei"
+      }
+    ],
+    "overview": "The paper is about the problem of autonomous driving using spatio-temporal CoT that achieves state-of-the-art results.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_182822.jpg"
+    ],
+    "created_at": "2025-12-31T23:37:05.102590",
+    "updated_at": "2025-12-31T23:46:45.122346",
+    "version": 1
+  },
+  {
+    "paper_id": "2cf9b777-f08b-4df3-832f-34afd54ab369",
+    "title": "Temporal Representation Alignment: Successor Features Enable Emergent Compositionalities in Robot Instruction Following",
+    "authors": [
+      {
+        "name": "Vivek Myers"
+      },
+      {
+        "name": "Bill Chunyuan Zheng"
+      },
+      {
+        "name": "Anca Dragan"
+      },
+      {
+        "name": "Kuan Fang"
+      },
+      {
+        "name": "Sergey Levine"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of compositional generalization in robot learning, specifically in the context of robotic manipulation tasks. Compositional generalization refers to the ability of an agent to generalize to new behaviors that are composed of known sub-behaviors. This is a crucial aspect of intelligent behavior, as it enables agents to adapt to new situations and tasks. However, current approaches to robot learning often struggle with compositional generalization, leading to limited performance in real-world settings.\n\n**Key Contributions**\nThe main contributions of this paper are:\n\n* The introduction of Temporal Representation Alignment (TRA), a method that learns to align state representations with tasks across time to enable compositional behavior.\n* The use of a time-contrastive alignment loss to improve compositional performance.\n* The demonstration of TRA's effectiveness in a real-world tabletop manipulation setting, with substantial improvements in compositional performance (>40% across 13 tasks in 4 evaluation scenes).\n\n**Methodology**\nThe paper uses a combination of goal- and language-conditioned control, with a focus on temporal representation alignment. The TRA method involves learning a structured representation of the world through a time-contrastive alignment loss, which is added as an auxiliary loss to the policy learning objective. This approach enables the agent to learn to compose behaviors from known sub-behaviors.\n\n**Results**\nThe paper presents results on a set of challenging multi-step manipulation tasks in the BridgeData setup and the OGBench simulation benchmark. TRA achieves substantial improvements in compositional performance, outperforming past imitation and reinforcement learning baselines.\n\n**Significance**\nThis work matters because it provides a new approach to compositional generalization in robot learning, which is a crucial aspect of intelligent behavior. The TRA method has the potential to enable robots to adapt to new situations and tasks, and could have a significant impact on the development of autonomous robots and intelligent systems.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Temporal_Representation_Alignment__Successor_Featu_2cf9b777.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2502.05454v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_183613.jpg"
+    ],
+    "created_at": "2025-12-27T08:53:35.282345",
+    "updated_at": "2025-12-28T11:24:56.767570",
+    "version": 1
+  },
+  {
+    "paper_id": "303213ed-959f-467d-ad8d-6c879722e039",
+    "title": "Learning Robust Visuomotor Policies by Staying In-Distribution",
+    "authors": [
+      {
+        "name": "Zhanyi Sun"
+      },
+      {
+        "name": "Shuran Song"
+      }
+    ],
+    "overview": "This paper addresses the problem of learning robust visuomotor policies by staying in-distribution, which is a critical challenge in robotics and AI. The authors propose a novel approach that uses a combination of policy- and value-based methods to learn policies that are both robust and efficient. The results show that the proposed approach can learn policies that are both robust and efficient, and can be used to improve the performance of existing policy- and value-based methods.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_131116.jpg"
+    ],
+    "created_at": "2025-12-31T23:42:45.751132",
+    "updated_at": "2025-12-31T23:46:45.273347",
+    "version": 1
+  },
+  {
+    "paper_id": "31b9736a-eadd-4616-9c31-713c053bc6d7",
+    "title": "Uncertainty-aware preference alignment for diffusion policies",
+    "authors": [
+      {
+        "name": "Runqing Miao"
+      },
+      {
+        "name": "Sheng Xiu"
+      },
+      {
+        "name": "Runyi Zhao"
+      },
+      {
+        "name": "Wai Kin Victor Chan"
+      },
+      {
+        "name": "Guiliang Liu"
+      }
+    ],
+    "overview": "The paper is about uncertainty-aware preference alignment for diffusion policies, which is a novel approach to address the challenges of preference alignment in diffusion policies.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_175920.jpg"
+    ],
+    "created_at": "2025-12-31T23:36:23.340681",
+    "updated_at": "2025-12-31T23:46:45.100086",
+    "version": 1
+  },
+  {
+    "paper_id": "34e43900-7e54-4a83-9a1b-7fe196e54ba3",
+    "title": "Raw2Drive: Reinforcement Learning with Aligned World Models for End-to-End Autonomous Driving in CARLA v2",
+    "authors": [
+      {
+        "name": "Zhenjie Yang"
+      },
+      {
+        "name": "Xiaosong Jiat"
+      },
+      {
+        "name": "Qifeng Li"
+      },
+      {
+        "name": "Xue Yang"
+      },
+      {
+        "name": "Maoqiang Yao"
+      },
+      {
+        "name": "Junchi Yan"
+      }
+    ],
+    "overview": "This paper presents Raw2Drive, a reinforcement learning-based approach for end-to-end autonomous driving in CARLA v2. It uses aligned world models to improve the robustness and generalizability of the learned policy.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_185826.jpg"
+    ],
+    "created_at": "2025-12-31T23:39:19.781224",
+    "updated_at": "2025-12-31T23:46:45.180849",
+    "version": 1
+  },
+  {
+    "paper_id": "3b8f224d-7ba5-415a-928d-3f6f2eaa6a54",
+    "title": "RLGF: Reinforcement Learning with Geometric Feedback for Autonomous Driving Video Generation",
+    "authors": [
+      {
+        "name": "Tian-Yi Yan"
+      },
+      {
+        "name": "Wencheng Han"
+      },
+      {
+        "name": "Xia-Zhao"
+      },
+      {
+        "name": "Kun-Zhao"
+      },
+      {
+        "name": "Cheng-Zhong Xu"
+      },
+      {
+        "name": "Jian-Bing Shen"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the issue of geometric distortions in synthetic video generation for autonomous driving (AD) systems. Current state-of-the-art video generation models, despite their visual realism, suffer from subtle geometric flaws that limit their utility for downstream perception tasks. This problem is critical because it undermines the reliability of models trained or evaluated using such data, significantly constraining their applicability in essential use cases.\n\n**Key Contributions**\nThe main contributions of this work are:\n\n* **Reinforcement Learning with Geometric Feedback (RLGF)**: a novel framework that injects perception-model-driven geometric spatial constraints directly into the video generation process.\n* **Latent-Space Windowing Optimization**: an efficient training strategy that applies rewards to noisy latent features within a randomly sampled sliding window of intermediate diffusion steps.\n* **Hierarchical Geometric Reward (HGR)**: a multi-level feedback system designed to imbue generated videos with robust geometric fidelity and scene coherence.\n\n**Methodology**\nThe paper uses a combination of techniques, including:\n\n* **Diffusion-based video generation models**: such as DiVE, which are optimized via pixel-level supervision.\n* **Pre-trained AD perception models**: as reward providers to ensure geometric fidelity.\n* **GeoScores**: a metric suite that evaluates geometric fidelity by applying pre-trained perception models to both synthetic videos and their corresponding real-world counterparts.\n\n**Results**\nThe paper reports significant performance improvements, including:\n\n* **21% reduction in VP error** and **57% reduction in Depth error** using RLGF.\n* **12.7% improvement in 3D object detection mAP** using RLGF.\n* **Narrowing the gap to real-data performance** in 3D object detection.\n\n**Significance**\nThis work matters because it addresses a critical issue in synthetic video generation for AD systems. By providing a plug-and-play solution for generating geometrically sound and reliable synthetic videos, RLGF has the potential to significantly improve the development and deployment of AD systems.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\RLGF__Reinforcement_Learning_with_Geometric_Feedba_3b8f224d.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2509.16500v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_183705.jpg"
+    ],
+    "created_at": "2025-12-27T08:58:53.753485",
+    "updated_at": "2025-12-28T11:25:00.222524",
+    "version": 1
+  },
+  {
+    "paper_id": "3d424700-0998-4ad9-9f33-012f8041cda5",
+    "title": "HiMaCon: Discovering Hierarchical Manipulation Concepts from Unlabeled Multi-Modal Data",
+    "authors": [
+      {
+        "name": "Ruihe Lui"
+      },
+      {
+        "name": "Pai Zhou"
+      },
+      {
+        "name": "Qian Lui"
+      },
+      {
+        "name": "Li Sun"
+      },
+      {
+        "name": "Jian Gen"
+      },
+      {
+        "name": "Yibing Song"
+      },
+      {
+        "name": "Yanchao Yang"
+      }
+    ],
+    "overview": "This paper presents a novel approach to discovering hierarchical manipulation concepts from unlabelled multi-modal data. The authors use a self-supervised learning approach to learn a hierarchical task structure via thresholding, and then use this structure to learn from multi-modal demonstration data. The results show that this approach can improve policy generalization and achieve state-of-the-art results.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_184053.jpg"
+    ],
+    "created_at": "2025-12-31T23:46:02.645848",
+    "updated_at": "2025-12-31T23:46:45.319171",
+    "version": 1
+  },
+  {
+    "paper_id": "3fa029d4-9731-4a70-96c1-0fd96dd4b3f2",
+    "title": "ThinkBench: Dynamic Out-of-Distribution Evaluation for Robust LLM Reasoning",
+    "authors": [
+      {
+        "name": "Shulin Huang"
+      },
+      {
+        "name": "Liny Yang"
+      },
+      {
+        "name": "Yan Song"
+      },
+      {
+        "name": "Shuang Chen"
+      },
+      {
+        "name": "Leyang Cui"
+      },
+      {
+        "name": "Ziyu Wan"
+      },
+      {
+        "name": "Qingzheng Zheng"
+      },
+      {
+        "name": "Ying Wen"
+      },
+      {
+        "name": "Kun Shao"
+      },
+      {
+        "name": "Wenhan Zhang"
+      },
+      {
+        "name": "Jun Wang"
+      },
+      {
+        "name": "Yue Zhang"
+      }
+    ],
+    "overview": "The paper proposes a dynamic out-of-distribution evaluation framework for robust LLM reasoning, addressing challenges in large language models' (LLMs) ability to handle out-of-distribution (OOD) data. The framework evaluates LLMs' performance on OOD data, providing insights into their robustness and reliability.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_174944.jpg"
+    ],
+    "created_at": "2025-12-31T13:50:46.565696",
+    "updated_at": "2025-12-31T14:55:01.387852",
+    "version": 1
+  },
+  {
+    "paper_id": "50db3ed0-579e-47cb-9c02-9eef6fe91018",
+    "title": "Enforcing Convex Constraints in Graph Neural Networks",
+    "authors": [
+      {
+        "name": "Ahmed Rashwan"
+      },
+      {
+        "name": "Keith Briggs"
+      },
+      {
+        "name": "Chris Budd"
+      },
+      {
+        "name": "Lisa Kreusel"
+      }
+    ],
+    "overview": "The paper is about enforcing convex constraints in graph neural networks, which is a problem in machine learning that involves using   techniques such as   1.    ",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_183050.jpg"
+    ],
+    "created_at": "2025-12-31T14:19:45.724092",
+    "updated_at": "2025-12-31T14:55:01.651447",
+    "version": 1
+  },
+  {
+    "paper_id": "5752edfd-cb18-4951-9e85-fcfbcc8432c5",
+    "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+    "authors": [
+      {
+        "name": "Chi-Pin Huang"
+      },
+      {
+        "name": "Yue-Hua Wu"
+      },
+      {
+        "name": "Min-Hung Chen"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang"
+      },
+      {
+        "name": "Fu-En Yang"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the challenge of enabling multimodal large language models (MLLMs) to reason before acting in physical environments, particularly in tasks requiring long-horizon planning and adaptation. This is important because current MLLMs excel in understanding multimodal inputs but struggle with multi-step planning and interacting with dynamic environments.\n\n**Key Contributions**\nThe main contributions of this paper are:\n* Proposing ThinkAct, a dual-system framework that connects structured reasoning with executable actions.\n* Leveraging action-aligned rewards derived from visual goal completion and trajectory distribution matching to incentivize long-horizon planning.\n* Advancing visual latent planning to steer downstream action execution by providing reasoning-enhanced trajectory guidance.\n\n**Methodology**\nThinkAct uses a dual-system architecture that consists of:\n* A multimodal LLM that generates embodied reasoning plans guided by reinforcing action-aligned visual rewards.\n* A downstream action model that executes actions based on the compressed visual plan latent.\nThe framework uses reinforcement learning to incentivize reasoning behaviors and visual latent planning to steer action execution.\n\n**Results**\nThe paper demonstrates that ThinkAct enables few-shot adaptation, long-horizon planning, and self-correction behaviors in complex embodied AI tasks. The results show that ThinkAct outperforms existing approaches on embodied reasoning and robot manipulation benchmarks, with a 25.1% improvement in few-shot adaptation.\n\n**Significance**\nThis work matters because it enables MLLMs to reason before acting in physical environments, which is crucial for applications such as robotics and AR assistance. ThinkAct's ability to adapt to new environments and correct mistakes in real-time has significant implications for the development of more robust and efficient physical AI systems.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\ThinkAct__Vision-Language-Action_Reasoning_via_Rei_5752edfd.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.16815v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_184035.jpg"
+    ],
+    "created_at": "2025-12-27T09:06:19.467878",
+    "updated_at": "2025-12-28T11:25:03.914470",
+    "version": 1
+  },
+  {
+    "paper_id": "57d48196-2792-4c20-8d76-6c0f09297f45",
+    "title": "Self-Generated In-Context Examples Improve LLM Agents for Sequential Decision-Making Tasks",
+    "authors": [
+      {
+        "name": "Vishnu Sarukkai"
+      },
+      {
+        "name": "Zhiqiang Xie"
+      },
+      {
+        "name": "Kayvon Fatahalian"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of improving Large Language Model (LLM) agents for sequential decision-making tasks. These tasks require agents to produce a series of actions over time based on observations of the environment, making it challenging to improve agent performance using traditional knowledge engineering methods.\n\n**Key Contributions**\nThe main contributions of this work are:\n\n* Developing a method for LLM agents to autonomously improve by learning from their own successful experiences without human intervention.\n* Introducing a technique for constructing and refining a database of self-generated trajectories that serve as in-context examples for future tasks.\n* Proposing two database construction enhancements: database-level curation and exemplar-level curation.\n\n**Methodology**\nThe paper uses a ReAct-style agent architecture that employs recent best practices for in-context retrieval. The agent operates through a three-phase approach (planning, reasoning, and acting) and incorporates an initial planning step to generate a high-level plan for the entire task. The method also uses a database of self-generated trajectories to serve as in-context examples for future tasks.\n\n**Results**\nThe results show that even naive accumulation of successful trajectories yields substantial performance gains across three diverse benchmarks: ALFWorld (73% to 89%), Wordcraft (55% to 64%), and InterCode-SQL (75% to 79%). The enhanced method achieves 93% success on ALFWorld, surpassing approaches that use more powerful LLMs and hand-crafted components.\n\n**Significance**\nThis work matters because it demonstrates that LLM agents can autonomously improve through experience, offering a scalable alternative to labor-intensive knowledge engineering. The results highlight the practical value of trajectory bootstrapping as a dimension for scaling test-time compute.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Self-Generated_In-Context_Examples_Improve_LLM_Age_57d48196.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.00234v3.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_181152.jpg"
+    ],
+    "created_at": "2025-12-27T08:37:16.647653",
+    "updated_at": "2025-12-28T11:25:07.482008",
+    "version": 1
+  },
+  {
+    "paper_id": "63ed6680-e78a-4010-b814-4aeb7e29b6db",
+    "title": "Chain-of-Action: Trajectory Autoregressive Modeling for Robotic Manipulation",
+    "authors": [
+      {
+        "name": "Wenbo Zhang"
+      },
+      {
+        "name": "Trannun Hu"
+      },
+      {
+        "name": "Hanbo Zhang"
+      },
+      {
+        "name": "Yanyuan Qiao"
+      }
+    ],
+    "overview": "This paper presents Chain-of-Action, a novel autoregressive model for robotic manipulation. It models the chain of actions required to perform a task, rather than just the final state. This approach allows for more accurate and robust predictions, and is particularly useful for tasks that require multiple actions to be performed in a specific order.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_191411.jpg"
+    ],
+    "created_at": "2025-12-31T14:07:59.151413",
+    "updated_at": "2025-12-31T14:55:01.590923",
+    "version": 1
+  },
+  {
+    "paper_id": "6457d2fd-e288-4a07-99b3-ad39d895b6f9",
+    "title": "AutoDiscovery: Open-ended Scientific Discovery via Bayesian Surprise",
+    "authors": [
+      {
+        "name": "Dhruv Agarwal"
+      },
+      {
+        "name": "Roothsastiva Prasad Maumder"
+      },
+      {
+        "name": "Reece Adamson"
+      },
+      {
+        "name": "Megha Chakraborty"
+      },
+      {
+        "name": "Satvika Reddy"
+      },
+      {
+        "name": "Aditya Parasuram"
+      },
+      {
+        "name": "Hanshith Surana"
+      },
+      {
+        "name": "Bhavna Dalw"
+      },
+      {
+        "name": "Mishra"
+      },
+      {
+        "name": "Ashish Sabharwal"
+      },
+      {
+        "name": "Peter Clark"
+      },
+      {
+        "name": "Andrew McCallum"
+      }
+    ],
+    "overview": "The paper is about open-ended scientific discovery via Bayesian surprise, which is a novel approach to discovering new scientific knowledge.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_131452.jpg"
+    ],
+    "created_at": "2025-12-31T23:43:38.701674",
+    "updated_at": "2025-12-31T23:46:45.287640",
+    "version": 1
+  },
+  {
+    "paper_id": "6478cdbf-34e6-406e-9f25-4361df5d4cce",
+    "title": "Blindfolded Experts Generalize Better: Insights from Robotic Manipulation and Video Games",
+    "authors": [
+      {
+        "name": "Ev Zisselman"
+      },
+      {
+        "name": "Mirco Mutti"
+      },
+      {
+        "name": "Shelly Francis-Meretzki"
+      },
+      {
+        "name": "Elisei Shafer"
+      },
+      {
+        "name": "Aviv Tamar"
+      }
+    ],
+    "overview": "The paper explores how blindfolded experts can perform better than non-Blindfied experts in certain tasks, using data from video games and robotic manipulation.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_131146.jpg"
+    ],
+    "created_at": "2025-12-31T14:37:02.540828",
+    "updated_at": "2025-12-31T14:55:01.678448",
+    "version": 1
+  },
+  {
+    "paper_id": "67b7459b-3239-4a33-b849-b6cd77aee304",
+    "title": "Improved Regret Bounds for Gaussian Process Upper Confidence Bound in Bayesian Optimization",
+    "authors": [
+      {
+        "name": "Shogo Iwazaki"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the Bayesian optimization problem, where a learner seeks to minimize regret under a function drawn from a known Gaussian process (GP). This problem is important because it has applications in various fields, such as robotics, finance, and healthcare, where optimizing a complex function is crucial.\n\n**Key Contributions**\nThe main contributions of this paper are:\n* Improving the regret upper bound for the Gaussian process upper confidence bound (GP-UCB) algorithm from e^O(√T) to e^O(√T) with high probability under a Mat´ern kernel with a certain degree of smoothness.\n* Establishing an O(√Tln2T) cumulative regret of GP-UCB for a squared exponential kernel, improving the existing O(√Tln(d+2)T) upper bound.\n\n**Methodology**\nThe paper uses a combination of techniques, including:\n* Leveraging algorithm-dependent behavior and sample path properties of the GP to refine information gain bounds.\n* Decomposing cumulative regret into lenient regret-based terms and analyzing them using techniques from [8, 28].\n* Using the GP-UCB algorithm, which combines the posterior distribution of GP with the optimism principle.\n\n**Results**\nThe key findings are:\n* GP-UCB achieves e^O(√T) regret with high probability under a Mat´ern kernel with a certain degree of smoothness.\n* GP-UCB achieves O(√Tln2T) cumulative regret for a squared exponential kernel.\n\n**Significance**\nThis work matters because it improves the theoretical understanding of the performance of GP-UCB, a widely used algorithm in Bayesian optimization. The results have implications for the design of more efficient algorithms and the development of new applications in fields such as robotics, finance, and healthcare.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Improved_Regret_Bounds_for_Gaussian_Process_Upper_67b7459b.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.01393v3.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_181349.jpg"
+    ],
+    "created_at": "2025-12-27T08:38:04.271830",
+    "updated_at": "2025-12-28T11:25:11.135649",
+    "version": 1
+  },
+  {
+    "paper_id": "67eb01c6-c5da-4eb2-8e55-ca0c9822a9ec",
+    "title": "Scaffolding Dexterous Manipulation with Vision-Language Models",
+    "authors": [
+      {
+        "name": "Vincent de Bakker"
+      },
+      {
+        "name": "Joey Hejna"
+      },
+      {
+        "name": "Tyler Lum"
+      },
+      {
+        "name": "Onur Celik"
+      },
+      {
+        "name": "Aleksandar Taranovic"
+      },
+      {
+        "name": "Denis Blessing"
+      },
+      {
+        "name": "Gerhard Neumann"
+      },
+      {
+        "name": "Jeannette Bohg"
+      },
+      {
+        "name": "Dorsa Sadigh"
+      }
+    ],
+    "overview": "The paper is about training dexterous hands to perform complex tasks using vision-language models.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_184911.jpg"
+    ],
+    "created_at": "2025-12-31T23:37:48.237602",
+    "updated_at": "2025-12-31T23:46:45.138792",
+    "version": 1
+  },
+  {
+    "paper_id": "68ec30b3-719a-4981-8aa7-ace337e87ad9",
+    "title": "GI: Teaching LLMs to Reason on Graphs with Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Xiaojun Guo"
+      },
+      {
+        "name": "Ang Li"
+      },
+      {
+        "name": "Yifei Wang"
+      },
+      {
+        "name": "Stefanie Jegelka"
+      },
+      {
+        "name": "Yisen Wang"
+      }
+    ],
+    "overview": "We propose a novel approach to teaching LLMs to reason on graphs with reinforcement learning. Our approach uses a graph- based reward ...",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_191806.jpg"
+    ],
+    "created_at": "2025-12-31T14:10:23.238172",
+    "updated_at": "2025-12-31T14:55:01.617930",
+    "version": 1
+  },
+  {
+    "paper_id": "6c1756c7-f4a3-49c5-8bfa-c7f9b4bfe404",
+    "title": "Failure Prediction at Runtime for Generative Robot Policies",
+    "authors": [
+      {
+        "name": "Ralf R\"omer"
+      },
+      {
+        "name": "Adrian K\"obas"
+      },
+      {
+        "name": "Luca W\"orl"
+      },
+      {
+        "name": "Angela P. Schoelig"
+      }
+    ],
+    "overview": "This paper proposes a failure prediction at runtime for generative robot policies. It uses a failure prediction at runtime for generative robot policies.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_183726.jpg"
+    ],
+    "created_at": "2025-12-31T23:45:07.976500",
+    "updated_at": "2025-12-31T23:46:45.309168",
+    "version": 1
+  },
+  {
+    "paper_id": "7317c074-2ed4-4e82-9c3c-46fa76dc3af7",
+    "title": "ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning",
+    "authors": [
+      {
+        "name": "Chi-Pin Huang"
+      },
+      {
+        "name": "Yueh-Hua Wu"
+      },
+      {
+        "name": "Min-Hung Chen"
+      },
+      {
+        "name": "Yu-Chiang Frank Wang"
+      },
+      {
+        "name": "Fu-En Yang"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the challenge of enabling multimodal large language models (MLLMs) to reason before acting in physical environments. Current approaches to vision-language-action (VLA) tasks rely on end-to-end training, which hinders the ability to plan over multiple steps or adapt to complex task variations. This limitation is crucial, as it prevents the development of robust and flexible AI systems that can interact with dynamic environments.\n\n**Key Contributions**\nThe main contributions of this paper are:\n\n* The proposal of ThinkAct, a dual-system framework that connects structured reasoning with executable actions.\n* The use of action-aligned rewards derived from visual goal completion and trajectory distribution matching to incentivize long-horizon planning.\n* The advancement of visual latent planning to steer downstream action execution by providing reasoning-enhanced trajectory guidance.\n\n**Methodology**\nThinkAct leverages reinforcement learning to incentivize MLLMs to perform long-horizon planning. The framework consists of two main components: a multimodal LLM that generates embodied reasoning plans, and a downstream action model that executes actions based on the generated plans. The LLM is trained using a combination of fully supervised fine-tuning and reinforcement learning, while the action model is trained using a visual latent planning approach.\n\n**Results**\nThe paper presents extensive experiments on embodied reasoning and robot manipulation benchmarks, demonstrating that ThinkAct enables few-shot adaptation, long-horizon planning, and self-correction behaviors in complex embodied AI tasks. The results show that ThinkAct outperforms existing approaches, such as OpenVLA, on tasks like picking up objects and placing them in compartments.\n\n**Significance**\nThis work matters because it enables the development of robust and flexible AI systems that can interact with dynamic environments. ThinkAct has the potential to unleash a wide range of physical AI applications, such as robotics and AR assistance, and can be applied to various tasks, including robot manipulation, navigation, and human-robot interaction.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\ThinkAct__Vision-Language-Action_Reasoning_via_Rei_7317c074.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2507.16815v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_184033.jpg"
+    ],
+    "created_at": "2025-12-27T09:05:22.863360",
+    "updated_at": "2025-12-28T11:25:14.238091",
+    "version": 1
+  },
+  {
+    "paper_id": "7a60163b-d3b2-4626-b538-bf694a048bcd",
+    "title": "PARCO: Parallel AutoRegressive Models for Multi-Agent Combinatorial Optimization",
+    "authors": [
+      {
+        "name": "Federico Bertoncini"
+      },
+      {
+        "name": "Chuanbo Hu"
+      },
+      {
+        "name": "Lauren Luttman"
+      },
+      {
+        "name": "Jiwoo Son"
+      },
+      {
+        "name": "Jinyoung Park"
+      }
+    ],
+    "overview": "The paper proposes a framework for efficiently constructing high-quality solutions to multi-agent combinatorial problems.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_182834.jpg"
+    ],
+    "created_at": "2025-12-31T13:55:46.679287",
+    "updated_at": "2025-12-31T14:55:01.478020",
+    "version": 1
+  },
+  {
+    "paper_id": "7ac6928b-b5fe-4771-b28c-066535dce958",
+    "title": "Toward Artificial Palpation: Representation Learning of Touch on Soft Bodies",
+    "authors": [
+      {
+        "name": "Zohar Rimon"
+      },
+      {
+        "name": "Elisei Shafer"
+      },
+      {
+        "name": "Tal Tepper"
+      },
+      {
+        "name": "Efrat Shimron"
+      },
+      {
+        "name": "Aviv Tamar"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of artificial palpation, which is the use of touch in medical examination. The authors aim to develop a system that can learn to interpret tactile measurements into corresponding mechanical structures, potentially leading to more accurate imaging than currently available. This is motivated by the fact that palpation is still an important tool in medical examination, particularly in breast cancer detection, where a large fraction of cases are discovered by palpation.\n\n**Key Contributions**\nThe main contributions of this paper are:\n\n* A proof of concept system for learning artificial breast palpation using self-supervised learning.\n* A novel soft breast phantom with a modular component that can include lumps with various sizes and shapes.\n* A neural representation learned by minimizing tactile force prediction error, which contains relevant information about the position and shape of the lump.\n* Tactile images that are arguably easier to interpret than a map of forces, which can be used for change detection at a level comparable to humans.\n\n**Methodology**\nThe authors use a combination of techniques, including:\n\n* Self-supervised learning to learn a general, artificial, palpation representation.\n* An encoder-decoder neural network to predict tactile measurements at given positions from a sequence of previous measurements.\n* A robotic manipulator with a tactile sensor tip programmed to palpate the phantom.\n* MRI scans of the objects as ground truth object models.\n\n**Results**\nThe authors report that their learned representation contains relevant information about the position and shape of the lump, and yields tactile images that are arguably easier to interpret than a map of forces. They also report that their system can detect changes in the size of the lump at a level comparable to humans.\n\n**Significance**\nThis work matters because it has the potential to improve tactile imaging and detection accuracy in medical examination. The authors' system can learn to interpret tactile measurements into corresponding mechanical structures, potentially leading to more accurate imaging than currently available. This could have a significant impact on medical diagnosis and treatment, particularly in breast cancer detection.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Toward_Artificial_Palpation__Representation_Learni_7ac6928b.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2511.16596v1.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_183658.jpg"
+    ],
+    "created_at": "2025-12-27T08:57:03.247836",
+    "updated_at": "2025-12-28T11:25:17.742695",
+    "version": 1
+  },
+  {
+    "paper_id": "7ddb7ab5-2ceb-4c01-8adc-6dabc0585f8e",
+    "title": "Towards Robust Zero-Shot Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Kexin Zheng"
+      },
+      {
+        "name": "Lauriane Teysier"
+      },
+      {
+        "name": "Yinian Zheng"
+      },
+      {
+        "name": "Xianyuan Zhan"
+      }
+    ],
+    "overview": "This paper proposes a novel approach to zero-shot reinforcement learning, which enables agents to learn to perform tasks without prior experience or training. The proposed method uses a novel representation learning framework that enables agents to learn to perform tasks without prior experience or training.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_185828.jpg"
+    ],
+    "created_at": "2025-12-31T13:58:27.874904",
+    "updated_at": "2025-12-31T14:55:01.510344",
+    "version": 1
+  },
+  {
+    "paper_id": "8b00d489-9d6a-4e4f-a28f-7f8d2e90e9ad",
+    "title": "Improving Generative Behavior Cloning via Self-Guidance and Adaptive Chunking",
+    "authors": [
+      {
+        "name": "Junhyuk So"
+      },
+      {
+        "name": "Chiwoong Lee"
+      },
+      {
+        "name": "Sinyoung Lee"
+      },
+      {
+        "name": "Jungseul Ok"
+      },
+      {
+        "name": "Eunhyeok Park"
+      }
+    ],
+    "overview": "This paper explores improving generative behavior cloning via self-guidance and adaptive chunking, achieving better results than previous methods.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_181358.jpg"
+    ],
+    "created_at": "2025-12-31T14:16:59.721163",
+    "updated_at": "2025-12-31T14:55:01.635448",
+    "version": 1
+  },
+  {
+    "paper_id": "8c9817eb-59a0-4f8a-96f0-0c83c44bc93d",
+    "title": "HMARL-CBF -- Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems",
+    "authors": [
+      {
+        "name": "H.M. Sabbir Ahmad"
+      },
+      {
+        "name": "Ehsan Sabouni"
+      },
+      {
+        "name": "Alexander Wasikoff"
+      },
+      {
+        "name": "Param Budhraj"
+      },
+      {
+        "name": "Zijian Guo"
+      },
+      {
+        "name": "Songyuan Zhang"
+      },
+      {
+        "name": "Chuchu Fan"
+      },
+      {
+        "name": "Christos Cassanaras"
+      },
+      {
+        "name": "Wen-Chao Li"
+      }
+    ],
+    "overview": "This paper presents a novel approach to safe and efficient autonomous systems by combining multi-agent reinforcement learning with control barrier functions. The proposed framework, HMARL-CBF, addresses the challenges of safety-critical autonomous systems by ensuring safe and efficient behavior in complex environments.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_182455.jpg"
+    ],
+    "created_at": "2025-12-31T13:55:10.255516",
+    "updated_at": "2025-12-31T14:55:01.467929",
+    "version": 1
+  },
+  {
+    "paper_id": "8ef67632-6816-40e2-9acd-e65038637285",
+    "title": "SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration",
+    "authors": [
+      {
+        "name": "Yan Zhuang"
+      },
+      {
+        "name": "Jiawei Ren"
+      },
+      {
+        "name": "Xiaokang Ye"
+      },
+      {
+        "name": "Jianzhi Shen"
+      },
+      {
+        "name": "Rukuan Zhang"
+      },
+      {
+        "name": "Tianai Yue"
+      },
+      {
+        "name": "Muhammad Faayez"
+      },
+      {
+        "name": "Kuhong He"
+      },
+      {
+        "name": "Xian Zhang"
+      },
+      {
+        "name": "Zigao Ma"
+      },
+      {
+        "name": "Lianhui Qiu"
+      },
+      {
+        "name": "Zhihui Hu"
+      },
+      {
+        "name": "Tianmin Shu"
+      }
+    ],
+    "overview": "This paper presents SimWorld-Robotic, a framework for synthesizing photorel   alistic and dynamic urban environments for multim   .",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_191428.jpg"
+    ],
+    "created_at": "2025-12-31T14:08:58.400989",
+    "updated_at": "2025-12-31T14:55:01.599925",
+    "version": 1
+  },
+  {
+    "paper_id": "91330146-636d-4212-a1be-78baf8bdf1ee",
+    "title": "PRIMT: Preference-based Reinforcement Learning with Multimodal Feedback and Trajectory Synthesis from Foundation Models",
+    "authors": [
+      {
+        "name": "Ruiqi Wang"
+      },
+      {
+        "name": "Dezhong Zhao"
+      },
+      {
+        "name": "Ziqin Yuan"
+      },
+      {
+        "name": "Tianyuan Shao"
+      },
+      {
+        "name": "Guohua Chen"
+      },
+      {
+        "name": "Dominic Kao"
+      },
+      {
+        "name": "Sungeun Hong"
+      },
+      {
+        "name": "Byung-Hee  Min"
+      }
+    ],
+    "overview": "This paper presents PRIMT, a preference-based reinforcement learning framework that leverages multimodal feedback and foundation models to improve  the  performance  of  rein  …",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_191352.jpg"
+    ],
+    "created_at": "2025-12-31T14:07:12.639511",
+    "updated_at": "2025-12-31T14:55:01.581919",
+    "version": 1
+  },
+  {
+    "paper_id": "9544ceef-b00b-433e-bffd-f6a91effcbbb",
+    "title": "Meta-Learning Objectives for Preference Optimization",
+    "authors": [
+      {
+        "name": "Carlo Alfano"
+      },
+      {
+        "name": "Silvia Sapora"
+      },
+      {
+        "name": "Jakob N. Foester"
+      },
+      {
+        "name": "Patrick Rebeschini"
+      },
+      {
+        "name": "Yee Whye Teh"
+      }
+    ],
+    "overview": "The paper introduces Mirror Preference Optimization (MPO), a framework for network generalizing DPO by replacing the KL-divergence with a Bregman divergence D. This allows us to tailor regularization to dataset properties. The paper defines 2-step MPO (SFT + PO) and Temporally-Aware MPO (TeMPO), where a is a schedule increasing from 0 to 1 over training.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_175958.jpg"
+    ],
+    "created_at": "2025-12-31T13:53:06.414022",
+    "updated_at": "2025-12-31T14:55:01.441345",
+    "version": 1
+  },
+  {
+    "paper_id": "95f3e22a-856b-4c45-a33e-eb95c72b0bfd",
+    "title": "Learning Human-Like RL Agents Through Trajectory Optimization with Action Quantization",
+    "authors": [
+      {
+        "name": "Jian-Ting Gao"
+      },
+      {
+        "name": "Tao-Cheng Chen"
+      },
+      {
+        "name": "Peng-Chen Huang"
+      },
+      {
+        "name": "Kuo-Hsiao Ho"
+      },
+      {
+        "name": "Ji-Wen Huang"
+      },
+      {
+        "name": "Tir-Long Wu"
+      },
+      {
+        "name": "Chen Wu"
+      }
+    ],
+    "overview": "We propose MAQ, a human-like RL framework that improves human-likeness while achieving strong performance, and can be easily integrated into various RL algorithms.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_175728.jpg"
+    ],
+    "created_at": "2025-12-31T13:52:08.929063",
+    "updated_at": "2025-12-31T14:55:01.428745",
+    "version": 1
+  },
+  {
+    "paper_id": "98d6fdb0-6e17-437c-acb6-7f5ba9d5f853",
+    "title": "Causal Spatio-Temporal Prediction: An Effective and Efficient Multi-Modal Approach",
+    "authors": [
+      {
+        "name": "Yuting Huang"
+      },
+      {
+        "name": "Ziquan Fang"
+      },
+      {
+        "name": "Zhihao Zeng"
+      },
+      {
+        "name": "Lu Chen"
+      },
+      {
+        "name": "Yunjun Gao"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of spatio-temporal prediction, which is crucial in various applications such as intelligent transportation, weather forecasting, and urban planning. Accurate predictions can improve decision-making and optimize resource allocation. However, current methods face challenges in integrating multi-modal data, mitigating confounding factors, and reducing computational complexity.\n\n**Key Contributions**\nThe main contributions of this work are:\n\n* **Unified Multi-Modal Spatio-Temporal Fusion**: The authors propose a framework that integrates various modalities (environmental images, event-related text, and spatio-temporal time-series data) through cross-modal attention and adaptive gating mechanisms.\n* **Dual-Branch based Causal Disentanglement**: The authors introduce a dual-branch causal inference design that focuses on learning spatio-temporal patterns and models additional modalities to reduce confounding bias.\n* **Efficient and Hybrid Model Design**: The authors incorporate GCN and Mamba for efficient spatio-temporal encoding, reducing computational complexity and accelerating model inference.\n\n**Methodology**\nThe proposed framework, E2-CSTP, leverages cross-modal attention and gating mechanisms to integrate multi-modal data. The dual-branch design focuses on spatio-temporal patterns and models additional modalities to reduce confounding bias. The efficient and hybrid model design incorporates GCN and Mamba for accelerated spatio-temporal encoding.\n\n**Results**\nThe authors conduct extensive experiments on 4 real-world datasets and achieve significant improvements:\n\n* Up to 9.66% improvements in accuracy\n* 17.37%–56.11% reductions in computational overhead\n\n**Significance**\nThis work matters because it addresses the challenges in multi-modal spatio-temporal prediction and provides a unified framework for integrating heterogeneous data. The proposed framework can improve decision-making and optimize resource allocation in various applications. The efficient and hybrid model design can accelerate model inference, making it more practical for large-scale datasets.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Causal_Spatio-Temporal_Prediction__An_Effective_an_98d6fdb0.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.17637v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_181041.jpg"
+    ],
+    "created_at": "2025-12-27T08:36:22.328972",
+    "updated_at": "2025-12-28T11:50:34.471326",
+    "version": 1
+  },
+  {
+    "paper_id": "99a45056-ca0c-456b-ab2a-47c72eea68b1",
+    "title": "OSVI-WM: One-Shot Visual Imitation for Unseen Tasks using World-Model-Based Trajectory Synthesis",
+    "authors": [
+      {
+        "name": "Ratin Gadeon Grewal"
+      },
+      {
+        "name": "Prashant Krishna"
+      },
+      {
+        "name": "Yann LeCun"
+      },
+      {
+        "name": "Farnah Khorram"
+      }
+    ],
+    "overview": "This paper presents a novel approach to one-shot visual imitation for unseen tasks using world-model-based trajectory synthesis. The method learns to imitate complex tasks by observing a single demonstration and generates a policy that can be used to perform the task without further training.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": null,
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_182136.jpg"
+    ],
+    "created_at": "2025-12-27T08:40:52.564043",
+    "updated_at": "2025-12-27T09:09:43.231969",
+    "version": 1
+  },
+  {
+    "paper_id": "9af7b1c7-0cce-4e89-ae0a-ffa5798db507",
+    "title": "Optimal Estimation of the Best Mean in Multi-Armed Bandits",
+    "authors": [
+      {
+        "name": "Takayuki Osogami"
+      },
+      {
+        "name": "Jinya Hoda"
+      }
+    ],
+    "overview": "The paper is about the problem of multi-armed bandits that estimates the best mean in a bandit problem.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_130824.jpg"
+    ],
+    "created_at": "2025-12-31T23:41:55.583262",
+    "updated_at": "2025-12-31T23:46:45.253347",
+    "version": 1
+  },
+  {
+    "paper_id": "9ccab2d8-4a2e-4c79-a474-9ab9aea1e172",
+    "title": "SVRPBench: A Realistic Benchmark for Stochastic Vehicle Routing Problems",
+    "authors": [
+      {
+        "name": "Ahmed Hossan"
+      },
+      {
+        "name": "Yahya Saadatshiraz"
+      },
+      {
+        "name": "Martin Tukic"
+      },
+      {
+        "name": "Salem LaHou"
+      },
+      {
+        "name": "Zangir Kikasov"
+      }
+    ],
+    "overview": "The paper presents SVRPBench, a realistic benchmark for stochastic vehicle routing problems. It addresses the sim-to-real gap in real-world logistics by offering a simulation-to- real-world gap-bridging benchmark. The benchmark is designed to bridge the sim-to-real gap in real-world logistics by offering a simulation-to- real-world gap-bridging benchmark.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_131639.jpg"
+    ],
+    "created_at": "2025-12-31T23:44:32.262296",
+    "updated_at": "2025-12-31T23:46:45.298166",
+    "version": 1
+  },
+  {
+    "paper_id": "9d5e27f9-93a8-4ff2-98f5-840c92db2734",
+    "title": "InstructFlow: Adaptive Symbolic Constraint-Guided Code Generation for Long-Horizon Planning",
+    "authors": [
+      {
+        "name": "Haotian Chi"
+      },
+      {
+        "name": "Zeyu Feng"
+      },
+      {
+        "name": "Yue-Ming Lyu"
+      },
+      {
+        "name": "Cheng-En Lin"
+      },
+      {
+        "name": "Yew-Son Ong"
+      },
+      {
+        "name": "Ivory Tsang"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the challenge of long-horizon planning in robotic manipulation tasks, where language model-based planners struggle with decomposing tasks, satisfying constraints, and recovering from failures. This is a critical problem because it affects the reliability and robustness of robotic systems, which require precise and adaptive planning to execute complex tasks.\n\n**Key Contributions**\nThe main contributions of this work are:\n\n* **InstructFlow framework**: a modular, multi-agent system that establishes a symbolic, feedback-driven flow of information for adaptive task planning and code generation.\n* **Hierarchical instruction graph**: a structured representation of tasks that supports dynamic, feedback-driven updates based on induced constraints.\n* **Symbolic constraint induction**: a mechanism that abstracts raw execution failures into interpretable symbolic predicates, enabling precise and generalizable plan and code refinement.\n\n**Methodology**\nThe InstructFlow framework consists of three key components:\n\n* **InstructFlow Planner**: constructs and traverses a hierarchical instruction graph that decomposes tasks into semantically meaningful subtasks.\n* **Code Generator**: generates executable code snippets conditioned on the instruction graph.\n* **Constraint Generator**: analyzes feedback and induces symbolic constraints, which are propagated back into the instruction graph to guide targeted code refinement.\n\n**Results**\nThe paper presents comprehensive experiments on three benchmarks: Drawing, Arrange-block, and Arrange-YCB. The results show that InstructFlow significantly improves task success rates and robustness, especially in constraint-sensitive and long-horizon scenarios. Specifically:\n\n* **Success rates**: InstructFlow achieves 92.5% success rate on Drawing, 85.2% on Arrange-block, and 81.4% on Arrange-YCB, outperforming strong LLM-based baselines.\n* **Robustness**: InstructFlow demonstrates improved robustness in constraint-sensitive and long-horizon tasks, with a 25% reduction in failure rates compared to baselines.\n\n**Significance**\nThis work matters because it addresses a critical challenge in robotic manipulation tasks and provides a robust and efficient solution. The InstructFlow framework has the potential to improve the reliability and adaptability of robotic systems, enabling them to execute complex tasks in dynamic environments.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\InstructFlow__Adaptive_Symbolic_Constraint-Guided_9d5e27f9.pdf",
+    "pdf_url": null,
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_182654.jpg"
+    ],
+    "created_at": "2025-12-27T08:49:51.133891",
+    "updated_at": "2025-12-28T05:32:02.355900",
+    "version": 1
+  },
+  {
+    "paper_id": "a3a08680-0dd7-4697-8d51-b9f779ce276e",
+    "title": "Predictive Preference Learning from Human Interventions",
+    "authors": [
+      {
+        "name": "Haoyuan Cai"
+      },
+      {
+        "name": "Zhenghao Peng"
+      },
+      {
+        "name": "Bolei Zhou"
+      }
+    ],
+    "overview": "This paper addresses the problem of learning from human interventions in preference learning. It uses a novel approach to learn from human int ",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_131758.jpg"
+    ],
+    "created_at": "2025-12-31T14:43:41.842306",
+    "updated_at": "2025-12-31T14:55:01.686874",
+    "version": 1
+  },
+  {
+    "paper_id": "a709981b-60fa-4b4a-a613-9e20b31a4929",
+    "title": "VideoVLA: Video Generators Can Be Generalizable Robot Manipulators",
+    "authors": [
+      {
+        "name": "Yichao Shen"
+      },
+      {
+        "name": "Fangyuan Wei"
+      },
+      {
+        "name": "Zhiyong Du"
+      },
+      {
+        "name": "Taobo Liang"
+      },
+      {
+        "name": "Yan Lu"
+      },
+      {
+        "name": "Jiaolong Yang"
+      },
+      {
+        "name": "Nanning Zheng"
+      },
+      {
+        "name": "Banning Guo"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of generalization in robot manipulation, which is essential for deploying robots in open-world environments and advancing toward artificial general intelligence. Despite recent advances in Vision-Language-Action (VLA) models, their ability to generalize to novel tasks, objects, and settings remains limited.\n\n**Key Contributions**\nThe main contributions of this work are:\n\n* Proposing a simple yet effective approach called VideoVLA, which transforms a Video Diffusion Transformer into a Video-Action Diffusion Transformer by adding actions as a new output modality.\n* Using pre-trained video generation models as the backbone for VLA models, which enables the transfer of knowledge from general-purpose models to robotic manipulation tasks.\n* Demonstrating strong generalization capabilities, including imitating other embodiments' skills and handling novel objects.\n\n**Methodology**\nThe proposed approach, VideoVLA, uses a multi-modal Diffusion Transformer architecture, which jointly models video, language, and action modalities. The model operates by taking the language tokens and the latent of the current visual observation as conditions, and jointly predicts the future actions and generates the corresponding future visual contents.\n\n**Results**\nThe experiments show a strong correlation between the predicted actions and the generated video clips, with a correlation coefficient of 0.85. The model also demonstrates strong generalization capabilities, including imitating other embodiments' skills and handling novel objects.\n\n**Significance**\nThis work matters because it explores a paradigm shift in robot learning by using pre-trained video generation models as the backbone for VLA models. The proposed approach, VideoVLA, has the potential to unlock generalization capabilities in manipulation systems, enabling robots to handle unseen tasks, manipulate novel objects, and operate in unfamiliar environments.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\VideoVLA__Video_Generators_Can_Be_Generalizable_Ro_a709981b.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2512.06963v1.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_182051.jpg"
+    ],
+    "created_at": "2025-12-27T08:39:46.890975",
+    "updated_at": "2025-12-28T11:25:31.673187",
+    "version": 1
+  },
+  {
+    "paper_id": "aa1b54cf-8fda-4eb2-83d5-9f32f8769979",
+    "title": "Skill-Driven Neurosymbolic State Abstractions",
+    "authors": [
+      {
+        "name": "Alper Ahmedoglu"
+      },
+      {
+        "name": "Steven James"
+      },
+      {
+        "name": "Cameron Allen"
+      },
+      {
+        "name": "Sam Loble"
+      },
+      {
+        "name": "David Abel"
+      },
+      {
+        "name": "George Konidaris"
+      }
+    ],
+    "overview": "The paper is about skill-driven neurosymbolic state abstractions that can be used to improve the performance of agents in complex environments.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_185227.jpg"
+    ],
+    "created_at": "2025-12-31T13:57:45.896612",
+    "updated_at": "2025-12-31T14:55:01.502833",
+    "version": 1
+  },
+  {
+    "paper_id": "aa4287b5-e42d-4d5b-81a4-df3d29edc1b9",
+    "title": "A Generalized Bisimulation Metric of State Similarity between Markov Decision Processes: From Theoretical Propositions to Applications",
+    "authors": [
+      {
+        "name": "Zhenyu Tao"
+      },
+      {
+        "name": "Wei Xu"
+      },
+      {
+        "name": "Xiaohu You"
+      }
+    ],
+    "overview": "This paper presents a new metric for state similarity between Markov decision processes (MDPs) based on bisimulation. The proposed metric is based on the idea of ...",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_185914.jpg"
+    ],
+    "created_at": "2025-12-31T13:59:06.683028",
+    "updated_at": "2025-12-31T14:55:01.517405",
+    "version": 1
+  },
+  {
+    "paper_id": "accaad4c-54da-4b06-a507-bcd55f653047",
+    "title": "Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data",
+    "authors": [
+      {
+        "name": "Lingkai Kong"
+      },
+      {
+        "name": "Haichuan Wang"
+      },
+      {
+        "name": "Tonghan Wang"
+      },
+      {
+        "name": "Guojun Xiong"
+      },
+      {
+        "name": "Milind Tambe"
+      }
+    ],
+    "overview": "The paper is about the problem of reinforcement learning with shifted-dynamics data, using composite flow matching to improve sample efficiency and speed up online RL in the true deployment.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_175514.jpg"
+    ],
+    "created_at": "2025-12-31T13:51:25.858841",
+    "updated_at": "2025-12-31T14:55:01.420644",
+    "version": 1
+  },
+  {
+    "paper_id": "b5c6fa82-062f-4aa0-8dd4-3beaf37eb95d",
+    "title": "Towards Reliable Code-as-Policies: A Neuro-Symbolic Framework for Embodied Task Planning",
+    "authors": [
+      {
+        "name": "Sanghyun Ahn"
+      },
+      {
+        "name": "Wonje Choi"
+      },
+      {
+        "name": "Jinnyong Lee"
+      },
+      {
+        "name": "Jinwoo Park"
+      },
+      {
+        "name": "Honguk Woo"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the challenge of generating reliable executable code for task planning in dynamic, partially observable environments. This is crucial for embodied agents, such as robots, that require accurate and complete code to perform tasks successfully. The current state-of-the-art approaches, like Code as Policies, suffer from limited environmental grounding, leading to suboptimal task success rates.\n\n**Key Contributions**\nThe main contributions of this work are:\n* The NESYRO framework, which incorporates explicit symbolic verification and interactive validation processes during code generation.\n* A novel recursive mechanism that composes two phases: Neuro-symbolic Code Verification and Neuro-symbolic Code Validation.\n* The framework's ability to ground generated code, resulting in improved task reliability and success rates in complex environments.\n\n**Methodology**\nThe NESYRO framework uses a combination of symbolic verification and interactive validation to generate executable code. Symbolic verification statically checks code correctness using domain-specific symbolic tools, while interactive validation enables the agent to actively explore its environment to resolve ambiguities and acquire missing observations.\n\n**Results**\nExperimental results demonstrate that NESYRO improves task success rate by 46.2% over the state-of-the-art baseline, Code as Policies. The framework achieves over 86.8% executability of task-relevant actions in real-world settings.\n\n**Significance**\nThis work matters because it addresses a critical challenge in embodied intelligence. The NESYRO framework has the potential to improve the reliability and success rates of task planning in dynamic, partially observable environments, enabling more robust and efficient robotic control. The framework's ability to ground generated code and its recursive mechanism make it a significant innovation in the field of neuro-symbolic robot task planning.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Towards_Reliable_Code-as-Policies__A_Neuro-Symboli_b5c6fa82.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.21302v1.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_182714.jpg"
+    ],
+    "created_at": "2025-12-27T08:50:48.299532",
+    "updated_at": "2025-12-28T11:25:35.160499",
+    "version": 1
+  },
+  {
+    "paper_id": "b670c527-f4e9-4a03-90f9-5b8ff7ce1848",
+    "title": "DexFlyWheel: A Scalable and Self-Improving Data Generation Framework for Dextrous Manipulation",
+    "authors": [
+      {
+        "name": "Kefei Zhu"
+      },
+      {
+        "name": "Fengshuo Bai"
+      },
+      {
+        "name": "Yuanhao Xiang"
+      },
+      {
+        "name": "Yishu Cai"
+      },
+      {
+        "name": "Xinglin Chen"
+      },
+      {
+        "name": "Ruchong Li"
+      },
+      {
+        "name": "Xingtao Wang"
+      },
+      {
+        "name": "Hao Dong"
+      },
+      {
+        "name": "Yaoong Yang"
+      },
+      {
+        "name": "Xiaopeng Fan"
+      },
+      {
+        "name": "Yuanpei Chen"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of generating diverse and high-quality datasets for dexterous manipulation tasks, which is crucial for advancing robot capabilities in real-world applications. The scarcity of such datasets is a significant bottleneck in robotics research, and existing methods either rely on human teleoperation or generate data with limited diversity.\n\n**Key Contributions**\nThe main contributions of this paper are:\n\n* The proposal of DexFlyWheel, a scalable and self-improving data generation framework for dexterous manipulation.\n* The combination of Imitation Learning (IL) and residual Reinforcement Learning (RL) to generate human-like and diverse data.\n* The design of a data flywheel mechanism that iteratively expands data diversity, enhances policy generalization, and evolves into a robust data generation agent.\n\n**Methodology**\nDexFlyWheel employs a self-improving cycle that integrates IL, residual RL, policy rollouts, and data augmentation. The framework starts with efficient seed demonstrations, which are then expanded through iterative cycles. Each cycle follows a closed-loop pipeline that extracts human-like behaviors from demonstrations, enhances policy generalization, and generates diverse trajectories.\n\n**Results**\nThe experimental results demonstrate the effectiveness of DexFlyWheel on four dexterous manipulation tasks. The framework generates over 2,000 diverse demonstrations across 500+ scenarios, outperforming baseline methods. Policies trained on the generated data achieve an average success rate of 81.9% on challenging test sets and transfer to a real-world dual-arm robot system with a 78.3% success rate on the dual-arm lift task.\n\n**Significance**\nThis work matters because it addresses the scarcity of dexterous manipulation data and provides a scalable and self-improving framework for generating diverse and high-quality datasets. The proposed framework has the potential to significantly improve the performance of policies in dexterous manipulation tasks and enable the development of more advanced robot capabilities.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\DexFlyWheel__A_Scalable_and_Self-Improving_Data_Ge_b670c527.pdf",
+    "pdf_url": null,
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_182229.jpg"
+    ],
+    "created_at": "2025-12-27T08:47:53.879005",
+    "updated_at": "2025-12-27T12:47:20.505033",
+    "version": 1
+  },
+  {
+    "paper_id": "b8a55bcc-abcf-4511-a486-d8eec8c05981",
+    "title": "Online Optimization for Offline Safe Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Yassine Chehade"
+      },
+      {
+        "name": "Aryan Deswal"
+      },
+      {
+        "name": "Alan Fern"
+      },
+      {
+        "name": "Thanh Nguyen-Tang"
+      },
+      {
+        "name": "Janardhan Rao Doppa"
+      }
+    ],
+    "overview": "The paper is about online optimization for offline safe reinforcement learning, which is a problem in the field of artificial intelligence and machine learning.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_180201.jpg"
+    ],
+    "created_at": "2025-12-31T13:53:42.143912",
+    "updated_at": "2025-12-31T14:55:01.450380",
+    "version": 1
+  },
+  {
+    "paper_id": "be486ba8-ec43-4b49-b283-763fee0dbdfa",
+    "title": "Neural Combinatorial Optimization for Time Dependent Traveling Salesman Problem",
+    "authors": [
+      {
+        "name": "Ruixiao Yang"
+      },
+      {
+        "name": "Chuchu Fan"
+      }
+    ],
+    "overview": "This paper addresses the problem of time-dependent traveling salesman problem (TDSPP) using neural combinatorial optimization. It proposes a novel approach to tackle TDSPP by using a neural network to learn the optimal   .",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_190534.jpg"
+    ],
+    "created_at": "2025-12-31T14:03:50.670045",
+    "updated_at": "2025-12-31T14:55:01.549920",
+    "version": 1
+  },
+  {
+    "paper_id": "c2d3e2d7-470b-4c10-a54f-eb1ddf05b21e",
+    "title": "RoboCerebra: A Large-Scale Benchmark for Long-Horizon Robotic Manipulation Evaluation",
+    "authors": [
+      {
+        "name": "Songhao Han"
+      },
+      {
+        "name": "Boxiang Qiu"
+      },
+      {
+        "name": "Yue Liao"
+      },
+      {
+        "name": "Siyuan Huang"
+      },
+      {
+        "name": "Chen Gao"
+      },
+      {
+        "name": "Shuicheng Yan"
+      },
+      {
+        "name": "Si Liu"
+      }
+    ],
+    "overview": "This paper presents a large-scale benchmark for long-horizon robotic manipulation evaluation, called RoboCerebria. It consists of 1000+ tasks with 100+ objects and 100+ actions, and is designed to evaluate the performance of robots in various scenarios.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_190307.jpg"
+    ],
+    "created_at": "2025-12-31T14:03:13.150245",
+    "updated_at": "2025-12-31T14:55:01.541919",
+    "version": 1
+  },
+  {
+    "paper_id": "c31c4d80-cf1b-4bd5-a58c-e8e551a742aa",
+    "title": "Staggered Environment Resets Improve Massively Parallel On-Policy Reinforcement Learning",
+    "authors": [
+      {
+        "name": "Sid Bhatnagar"
+      },
+      {
+        "name": "Stone Tao"
+      },
+      {
+        "name": "Hao Su"
+      }
+    ],
+    "overview": "This paper explores the problem of on-policy reinforcement learning in environments with high-dimensional state and action spaces. The authors propose a new method called Staggered Environment Resets (SER) that improves the performance of on-policy methods by reducing the number of state and action spaces. The results show that SER can achieve better performance than existing methods in various tasks.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_185055.jpg"
+    ],
+    "created_at": "2025-12-31T13:56:31.909103",
+    "updated_at": "2025-12-31T14:55:01.487662",
+    "version": 1
+  },
+  {
+    "paper_id": "c8ba1c72-1b03-45ba-be89-407e6017e988",
+    "title": "SonoGym: High Performance Simulation for Challenging Surgical Tasks with Robotic Ultrasound",
+    "authors": [
+      {
+        "name": "Yunke Ao"
+      },
+      {
+        "name": "Masoud Moghaddam"
+      },
+      {
+        "name": "Mayank Mittal"
+      },
+      {
+        "name": "Marsah Pralap"
+      },
+      {
+        "name": "Lisong Wu"
+      },
+      {
+        "name": "Federic Grudl"
+      },
+      {
+        "name": "Fabio Caron"
+      },
+      {
+        "name": "Andreas Kneel"
+      }
+    ],
+    "overview": "Our contribution is a GPU-based robotic US simulation platform that includes: model-based (MB) and learning-based (LB) US simulation from CT and label map. RL environments for US navigation, anatomy reconstruction and US-guided surgery. Le-robot dataset for training IL agents such as diffusion policy and transformers.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_191324.jpg"
+    ],
+    "created_at": "2025-12-31T14:06:21.942076",
+    "updated_at": "2025-12-31T14:55:01.573921",
+    "version": 1
+  },
+  {
+    "paper_id": "cddabb8c-a05f-415d-bdb9-18dcae89ba81",
+    "title": "Heterogeneous Graph Transformers for Simultaneous Mobile Multi-Robot Task Allocation and Scheduling under Temporal Constraints",
+    "authors": [
+      {
+        "name": "Baluhan Altundas"
+      },
+      {
+        "name": "Shengkang Chen"
+      },
+      {
+        "name": "Shivangi Deo"
+      },
+      {
+        "name": "Mimwo Cho"
+      },
+      {
+        "name": "Matthew Gombolay"
+      }
+    ],
+    "overview": "This paper presents a novel approach to mobile multi-robot task allocation and scheduling under temporal constraints using Heterogeneous Graph Transformers. The proposed method is evaluated on a real-world dataset and shows promising results.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_191017.jpg"
+    ],
+    "created_at": "2025-12-31T23:40:40.732493",
+    "updated_at": "2025-12-31T23:46:45.219404",
+    "version": 1
+  },
+  {
+    "paper_id": "ce2e951f-c8f1-4e3b-b71b-224fd991f0fa",
+    "title": "ReSim: Reliable World Simulation for Autonomous Driving",
+    "authors": [
+      {
+        "name": "Jiazi Yang"
+      },
+      {
+        "name": "Kashyap Chitta"
+      },
+      {
+        "name": "Shenyan Gao"
+      },
+      {
+        "name": "Long Chen"
+      },
+      {
+        "name": "Yugian Shao"
+      },
+      {
+        "name": "Xiaosong Jia"
+      },
+      {
+        "name": "Hongyong Li"
+      },
+      {
+        "name": "Andreas Geiger"
+      },
+      {
+        "name": "Xiangyu Yue"
+      },
+      {
+        "name": "L. Chen"
+      }
+    ],
+    "overview": "This paper presents ReSim, a reliable world simulation for autonomous driving. It addresses the problem of simulating real-world scenarios for training and testing of AI- and …",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_191502.jpg"
+    ],
+    "created_at": "2025-12-31T14:09:45.891554",
+    "updated_at": "2025-12-31T14:55:01.608932",
+    "version": 1
+  },
+  {
+    "paper_id": "ce3ad59c-3376-4d87-a5a2-579b01f58834",
+    "title": "State-Covering Trajectory Stitching for Diffusion Planners",
+    "authors": [
+      {
+        "name": "Kyoowoon Lee"
+      },
+      {
+        "name": "Jaesik Choi"
+      }
+    ],
+    "overview": "This paper presents a state-covering trajectory stitching method for diffusion planners, which is a novel approach to improve the performance of diffusion-based planning algorithms.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_181355.jpg"
+    ],
+    "created_at": "2025-12-31T13:54:13.333589",
+    "updated_at": "2025-12-31T14:55:01.457898",
+    "version": 1
+  },
+  {
+    "paper_id": "cef6621b-5fef-4383-9859-721086121e95",
+    "title": "Robo2VLM: Improving Visual Question Answering using Large-Scale Robot Manipulation Data",
+    "authors": [
+      {
+        "name": "Kaiyuan Chen"
+      },
+      {
+        "name": "Shuangyu Xie"
+      },
+      {
+        "name": "Zehan Ma"
+      },
+      {
+        "name": "Pannag R Sanketi"
+      },
+      {
+        "name": "Ken Goldberg"
+      }
+    ],
+    "overview": "This paper addresses the problem of visual question answering using large-scale robot manipulation data. It uses a novel approach to improve the performance of visual question answering by using large-scale robot manipulation data. The paper achieves state-of-the-art results in visual question answering.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_191305.jpg"
+    ],
+    "created_at": "2025-12-31T14:05:25.294923",
+    "updated_at": "2025-12-31T14:55:01.566922",
+    "version": 1
+  },
+  {
+    "paper_id": "d844f356-70c7-4688-ab22-c66eec17ec19",
+    "title": "Knowledge insulating VLAs: Train fast, run fast, generalize better",
+    "authors": [
+      {
+        "name": "Danny Driess"
+      },
+      {
+        "name": "Jost Tobias Springenberg"
+      },
+      {
+        "name": "Brian Ichtter"
+      },
+      {
+        "name": "Lili Yu"
+      },
+      {
+        "name": "Adrian Li-Bell"
+      },
+      {
+        "name": "Karl Pertsch"
+      },
+      {
+        "name": "Allen Z. Ren"
+      },
+      {
+        "name": "Homer Walke"
+      },
+      {
+        "name": "Quan Vuong"
+      },
+      {
+        "name": "Lucy Xiaoyang Shi"
+      },
+      {
+        "name": "Sergey Levine"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the challenge of adapting large language models (LLMs) and vision-language models (VLMs) to real-world control, specifically for robotic manipulation tasks. The goal is to leverage the semantic knowledge distilled from web-scale pre-training to improve the performance of vision-language-action (VLA) models in controlling robots. However, the constraints of real-time control and the large number of parameters in VLMs pose significant obstacles.\n\n**Key Contributions**\nThe main contributions of this work are:\n* A novel approach called \"knowledge insulation\" that separates the training of the VLM backbone from the action expert, allowing for faster and more stable training.\n* A technique for insulating the VLM backbone during VLA training, which mitigates the issue of degraded knowledge transfer.\n* An extensive analysis of various design choices and their impact on performance and knowledge transfer.\n\n**Methodology**\nThe paper proposes a training recipe that fine-tunes the VLM backbone with discretized actions while adapting an action expert to produce continuous actions. The key idea is to use next-token prediction to learn good representations for robotic control, while the action expert is trained with flow-matching or diffusion. The approach is illustrated in Figure 1.\n\n**Results**\nThe experimental evaluation provides an extensive analysis of the various modeling choices in continuous-action VLAs. The results show that knowledge insulation improves training speed and knowledge transfer, and enables co-training on general vision-language data.\n\n**Significance**\nThis work matters because it addresses a critical challenge in adapting LLMs and VLMs to real-world control. The proposed approach has the potential to improve the performance of VLA models in controlling robots, and could have a significant impact on the field of robotics and AI. The results demonstrate the importance of knowledge insulation in preserving the semantic knowledge contained in pre-trained VLMs.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Knowledge_insulating_VLAs__Train_fast__run_fast__g_d844f356.pdf",
+    "pdf_url": null,
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_182217.jpg"
+    ],
+    "created_at": "2025-12-27T08:46:37.171316",
+    "updated_at": "2025-12-28T05:34:35.871126",
+    "version": 1
+  },
+  {
+    "paper_id": "d85fd70b-de2b-40ad-9db5-cf1c70b89ae4",
+    "title": "Causal Spatio-Temporal Prediction: An Effective and Efficient Multi-Modal Approach",
+    "authors": [
+      {
+        "name": "Yuting Huang"
+      },
+      {
+        "name": "Ziquan Fang"
+      },
+      {
+        "name": "Zhihao Zeng"
+      },
+      {
+        "name": "Lu Chen"
+      },
+      {
+        "name": "Yunjun Gao"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of spatio-temporal prediction, which is crucial in various applications such as intelligent transportation, weather forecasting, and urban planning. The goal is to improve prediction accuracy by effectively integrating multi-modal data, mitigating confounding factors, and reducing computational complexity.\n\n**Key Contributions**\nThe main contributions of this work are:\n\n* **Unified Multi-Modal Spatio-Temporal Fusion**: The authors propose a framework that jointly models heterogeneous features from various modalities (environmental images, event-related text, and spatio-temporal time-series data) using cross-modal attention and adaptive gating mechanisms.\n* **Dual-Branch based Causal Disentanglement**: The authors introduce a dual-branch causal inference design that separates the main branch for spatio-temporal pattern learning from the auxiliary branch for modeling additional modalities and reducing confounding bias.\n* **Efficient and Hybrid Model Design**: The authors incorporate GCN and Mamba for efficient spatio-temporal encoding, reducing computational complexity and accelerating model inference.\n\n**Methodology**\nThe proposed framework, E2-CSTP, leverages cross-modal attention and gating mechanisms to integrate multi-modal data. The dual-branch design separates the main branch for spatio-temporal pattern learning from the auxiliary branch for modeling additional modalities and reducing confounding bias. The efficient and hybrid model design incorporates GCN and Mamba for spatio-temporal encoding.\n\n**Results**\nThe authors conduct extensive experiments on 4 real-world datasets, achieving up to 9.66% improvements in accuracy and 17.37%–56.11% reductions in computational overhead compared to 9 state-of-the-art methods.\n\n**Significance**\nThis work matters because it addresses the challenges of multi-modal spatio-temporal prediction, improving prediction accuracy and reducing computational complexity. The proposed framework, E2-CSTP, has the potential to impact various applications, including intelligent transportation, weather forecasting, and urban planning.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Causal_Spatio-Temporal_Prediction__An_Effective_an_d85fd70b.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.17637v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_181041.jpg"
+    ],
+    "created_at": "2025-12-26T05:59:59.980718",
+    "updated_at": "2025-12-28T11:25:45.276919",
+    "version": 1
+  },
+  {
+    "paper_id": "dd6cf678-2307-4892-8f65-d739f14a3cf7",
+    "title": "Fully Autonomous Neuromorphic Navigation and Dynamic Obstacle Avoidance",
+    "authors": [
+      {
+        "name": "Kai-Enn Chang"
+      },
+      {
+        "name": "Peng-Eni Liang"
+      },
+      {
+        "name": "Xin-Ming Yang"
+      },
+      {
+        "name": "Jai-Hou Chen"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the challenge of enabling unmanned aerial vehicles (UAVs) to rely solely on onboard computation and sensing for real-time navigation and dynamic obstacle avoidance. This is crucial due to the limitations of external aids such as GPS and ground stations, which can be jammed or interfered with in various scenarios.\n\n**Key Contributions**\nThe main contributions of this paper are:\n* A fully neuromorphic framework for tiny UAVs to perform navigation and dynamic obstacle avoidance tasks using only onboard resources.\n* A bio-inspired approach that enables accurate moving object detection and avoidance with a latency of 2.3 milliseconds.\n* The creation of a monocular event-based pose correction dataset with over 50,234 paired and labeled event streams.\n\n**Methodology**\nThe proposed framework uses a monocular event camera and an inertial measurement unit (IMU) to enable the UAV to navigate and avoid obstacles. The navigation module uses IMU data and an SCNN network to mitigate error drift. The obstacle avoidance module uses a bio-inspired algorithm to suppress events from static objects and directly output evasion maneuvers.\n\n**Results**\nThe results show that the proposed framework achieves:\n* A latency of 2.3 milliseconds for obstacle avoidance.\n* Energy consumption reduced to 21% compared to traditional architectures.\n* Superior performance compared to state-of-the-art dynamic obstacle avoidance approaches.\n\n**Significance**\nThis work matters because it enables tiny UAVs to perform complex tasks autonomously, without relying on external aids. The proposed framework has the potential to improve the performance and safety of UAVs in various applications, such as surveillance, inspection, and search and rescue. The creation of a large-scale event-based pose correction dataset also contributes to the development of neuromorphic computer vision.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Fully_Autonomous_Neuromorphic_Navigation_and_Dynam_dd6cf678.pdf",
+    "pdf_url": "https://openreview.net/pdf?id=11fe8wKkmk",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_184100.jpg"
+    ],
+    "created_at": "2025-12-27T09:08:24.756667",
+    "updated_at": "2025-12-28T10:10:27.255780",
+    "version": 1
+  },
+  {
+    "paper_id": "ddb0f7d9-b634-43f0-bc47-5d385397c846",
+    "title": "GaussianFusion: Gaussian-Based Multi-Sensor Fusion for End-to-End Autonomous Driving",
+    "authors": [
+      {
+        "name": "Shuai Lu"
+      },
+      {
+        "name": "Quanmin Liang"
+      },
+      {
+        "name": "Zeng Li"
+      },
+      {
+        "name": "Boyang Li"
+      },
+      {
+        "name": "Kai Huang"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the problem of multi-sensor fusion in end-to-end (E2E) autonomous driving systems. E2E autonomous driving relies on deep learning to map sensor inputs to driving actions, but relying on a single sensor limits the system's ability to handle diverse and challenging driving scenarios. Multi-sensor fusion is essential to leverage complementary information from different sensors, enhancing perception reliability and providing richer input for learning robust driving policies.\n\n**Key Contributions**\nThe paper proposes GaussianFusion, a Gaussian-based multi-sensor fusion framework for E2E autonomous driving. The key contributions are:\n\n* Introducing Gaussian representations into multi-sensor fusion for E2E autonomous driving\n* Proposing a dual-branch fusion pipeline tailored to the planning-centric task\n* Designing a cascade planning head that iteratively refines trajectories through hierarchical Gaussian queries\n\n**Methodology**\nThe proposed framework uses 2D Gaussians to represent the traffic scene, which are initialized uniformly across the driving scene. The Gaussians are progressively refined by integrating multi-modal features. A dual-branch fusion pipeline is designed, with one branch capturing local features for traffic scene reconstruction and the other aggregating global planning cues for motion planning. A cascade planning module refines anchor trajectories by querying the Gaussian representations.\n\n**Results**\nThe paper evaluates GaussianFusion on the NAVSIM and Bench2Drive benchmarks. On NAVSIM, the approach achieves 92.0 PDMS (Planning Distance Metric Score) with the V2-99 backbone, surpassing current state-of-the-art methods. On Bench2Drive, the results consistently demonstrate the effectiveness of GaussianFusion.\n\n**Significance**\nGaussianFusion has the potential to improve the performance and robustness of E2E autonomous driving systems by leveraging Gaussian representations for multi-sensor fusion. The approach can be applied to various autonomous driving tasks, including planning, perception, and control. The use of Gaussian representations can also improve the interpretability and efficiency of multi-sensor fusion methods.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\GaussianFusion__Gaussian-Based_Multi-Sensor_Fusion_ddb0f7d9.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2506.00034v2.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_183638.jpg"
+    ],
+    "created_at": "2025-12-27T08:56:04.262886",
+    "updated_at": "2025-12-28T11:25:48.744467",
+    "version": 1
+  },
+  {
+    "paper_id": "de0a0c10-c332-44bb-a87b-4ae940009123",
+    "title": "Flow Matching-Based Autonomous Driving Planning with Advanced Interactive Behavior Modeling",
+    "authors": [
+      {
+        "name": "Tianyi Tan"
+      },
+      {
+        "name": "Yinian Zheng"
+      },
+      {
+        "name": "Ruiming Liang"
+      },
+      {
+        "name": "Zexu Wang"
+      },
+      {
+        "name": "Kexin Zheng"
+      },
+      {
+        "name": "Jinliang Zheng"
+      },
+      {
+        "name": "Jianxiong Li"
+      },
+      {
+        "name": "Xianyuan Zhan"
+      },
+      {
+        "name": "Jingjing Liu"
+      }
+    ],
+    "overview": "**Problem Statement**\nThe paper addresses the challenge of modeling interactive driving behaviors in complex scenarios for autonomous driving planning. This is a critical problem because conventional rule-based approaches are limited by fundamental constraints, requiring substantial human engineering efforts and exhibiting poor generalization capability in dynamic environments. Learning-based methods aim to directly learn expert strategies from real-world driving data, but current approaches often fail to effectively capture intricate interdependencies among heterogeneous information.\n\n**Key Contributions**\nThe main contributions of this paper are:\n* Fine-grained trajectory tokenization, which decomposes the trajectory into overlapping segments to decrease the complexity of whole trajectory modeling.\n* A sophisticatedly designed architecture that achieves efficient temporal and spatial fusion of planning and scene information.\n* Flow matching with classifier-free guidance for multi-modal behavior generation, which dynamically reweights agent interactions during inference to maintain coherent response strategies.\n\n**Methodology**\nThe proposed framework, Flow Planner, incorporates:\n* Fine-grained trajectory tokenization to reduce complexity.\n* A scale-adaptive attention mechanism for spatiotemporal fusion of scene and planning tokens.\n* Flow matching loss with classifier-free guidance for multi-modal behavior generation.\n\n**Results**\nExperimental results on the nuPlan and interPlan datasets show that Flow Planner achieves state-of-the-art performance among learning-based planners, with significant improvements in interactive scenario understanding. Specifically, Flow Planner outperforms other methods on the nuPlan dataset, achieving a 10.5% improvement in planning accuracy.\n\n**Significance**\nThis work matters because it addresses a critical challenge in autonomous driving planning, enabling more effective modeling of interactive driving behaviors in complex scenarios. The proposed framework, Flow Planner, has the potential to improve the safety and reliability of autonomous driving systems, and its impact could be significant in the development of autonomous vehicles.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\Flow_Matching-Based_Autonomous_Driving_Planning_wi_de0a0c10.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.11083v1.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_183633.jpg"
+    ],
+    "created_at": "2025-12-27T08:54:50.843962",
+    "updated_at": "2025-12-28T11:25:52.419111",
+    "version": 1
+  },
+  {
+    "paper_id": "de3fc547-1de6-4fab-868d-134e2bb91706",
+    "title": "Sequential Monte Carlo for Policy Optimization in Continuous POMDPs",
+    "authors": [
+      {
+        "name": "Hany AbduLsamaD"
+      },
+      {
+        "name": "Sahel Iqbal"
+      },
+      {
+        "name": "Simo SarKka"
+      }
+    ],
+    "overview": "The paper is about policy optimization in continuous POMDPs using sequential Monte Carlo methods, which is a novel approach to address the challenges of policy optimization in these environments.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_190249.jpg"
+    ],
+    "created_at": "2025-12-31T23:39:56.278781",
+    "updated_at": "2025-12-31T23:46:45.202351",
+    "version": 1
+  },
+  {
+    "paper_id": "e36831f7-a2f2-44e5-a70d-b2b06a655f77",
+    "title": "Learning Parameterized Skills from Demonstrations",
+    "authors": [
+      {
+        "name": "Vedant Gupta"
+      },
+      {
+        "name": "Haotian Fu"
+      },
+      {
+        "name": "Calvin Luo"
+      },
+      {
+        "name": "Yiding Li"
+      }
+    ],
+    "overview": "This paper presents a multitask policy that generalizes to tasks outside the training data. It uses a task demonstration data and generalizable parameterized skills to learn generalizable parameterized skills from demonstration data.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_190110.jpg"
+    ],
+    "created_at": "2025-12-31T14:00:39.797280",
+    "updated_at": "2025-12-31T14:55:01.532924",
+    "version": 1
+  },
+  {
+    "paper_id": "eee4f47f-ceb6-452c-beb1-2ef73f2f12bb",
+    "title": "Deep Learning for Continuous-Time Stochastic Control with Jumps",
+    "authors": [
+      {
+        "name": "Patrick Cheridito"
+      },
+      {
+        "name": "Jean-Loup Dupret"
+      },
+      {
+        "name": "Donatien Hainaut"
+      }
+    ],
+    "overview": "The paper presents a deep learning approach for solving continuous-time stochastic control problems with jumps. The approach is based on a dynamic programming approach and uses neural networks to approximate the value function and the optimal control.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_190225.jpg"
+    ],
+    "created_at": "2025-12-31T23:35:47.541623",
+    "updated_at": "2025-12-31T23:46:45.069275",
+    "version": 1
+  },
+  {
+    "paper_id": "f449f196-1665-4919-9a4b-52d1aa4a4314",
+    "title": "SDTagNet: Leveraging Text-annotated Navigation Maps for Online HD Map Construction",
+    "authors": [
+      {
+        "name": "Fabian Immele"
+      },
+      {
+        "name": "Jan Hendrik Pauls"
+      },
+      {
+        "name": "Richard Fenner"
+      },
+      {
+        "name": "Frank Biedler"
+      },
+      {
+        "name": "Jonas Merker"
+      },
+      {
+        "name": "Christoph Stiller"
+      }
+    ],
+    "overview": "SDTagNet is the first SD map encoder that can handle open, vocabulary- and/or domain-specific annotations and diverse element types such as points, payphones, and traffic lights.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251204_185713.jpg"
+    ],
+    "created_at": "2025-12-31T23:38:30.512485",
+    "updated_at": "2025-12-31T23:46:45.159882",
+    "version": 1
+  },
+  {
+    "paper_id": "f95d9941-5396-46bd-8912-6de4ded250bd",
+    "title": "Temporal Logic-Based Multi-Vehicle Backdoor Attacks Against Offline RL Agents in End-to-End Autonomous Driving",
+    "authors": [
+      {
+        "name": "Xuan Chen"
+      },
+      {
+        "name": "Shiwei Feng"
+      },
+      {
+        "name": "Zikang Xiong"
+      },
+      {
+        "name": "Shengwei An"
+      },
+      {
+        "name": "Yunshu Ma"
+      },
+      {
+        "name": "Lu Yan"
+      },
+      {
+        "name": "Guanhong Tao"
+      },
+      {
+        "name": "Wenbo Guo"
+      },
+      {
+        "name": "Xiangyuan Zhang"
+      }
+    ],
+    "overview": "This paper explores the problem of backdoor attacks in offline RL agents in end-to-End autonomous driving, using temporal logic-based multi-vehicle backdoor attacks.",
+    "conference_name": "neurips2025",
+    "pdf_found": false,
+    "pdf_path": "Unknown",
+    "pdf_url": "Unknown",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251203_190806.jpg"
+    ],
+    "created_at": "2025-12-31T14:04:38.336184",
+    "updated_at": "2025-12-31T14:55:01.557922",
+    "version": 1
+  },
+  {
+    "paper_id": "fb4a9ee9-9d2f-49ea-baa7-68bb456fd02d",
+    "title": "3D Equivariant Visuomotor Policy Learning via Spherical Projection",
+    "authors": [
+      {
+        "name": "Bocchini, Boce Hu"
+      },
+      {
+        "name": "Dian Wang"
+      },
+      {
+        "name": "David Klee"
+      },
+      {
+        "name": "Heng Tian"
+      },
+      {
+        "name": "Xupeng Zhu"
+      },
+      {
+        "name": "Haajie Huang"
+      },
+      {
+        "name": "Robert Platt"
+      },
+      {
+        "name": "Robin Walters"
+      }
+    ],
+    "overview": "**Problem Statement**\nThis paper addresses the challenge of achieving SO(3)-equivariance in visuomotor policy learning using only monocular RGB inputs in eye-in-hand settings. This is important because existing equivariant models rely on point cloud data or multi-camera setups, which are not compatible with the common eye-in-hand configuration.\n\n**Key Contributions**\nThe main contributions are:\n* Introducing Image-to-Sphere Policy (ISP), the first SO(3)-equivariant policy learning framework that uses spherical projection from 2D RGB inputs to model 3D symmetries.\n* Theoretically proving that ISP achieves global SO(3)-equivariance and local SO(2)-invariance, facilitating policy learning.\n* Validating ISP through extensive experiments, achieving an average success rate improvement of 11.6% over twelve simulation tasks and 42.5% across four real-world tasks.\n\n**Methodology**\nThe ISP framework uses spherical projection to transform 2D RGB features onto a sphere, and then rotates the resulting spherical signal to compensate for camera motion. This yields a stable, SO(3)-equivariant representation that is well-suited for downstream equivariant architectures.\n\n**Results**\nThe experiments demonstrate that ISP consistently outperforms strong baselines in terms of both performance and sample efficiency. The average success rate improvement is 11.6% over twelve simulation tasks and 42.5% across four real-world tasks.\n\n**Significance**\nThis work matters because it provides a novel framework for achieving SO(3)-equivariance in visuomotor policy learning using only monocular RGB inputs. This has the potential to improve data efficiency and generalization in robotic manipulation tasks, and can serve as a modular, plug-and-play component that generalizes seamlessly to richer sensing setups.",
+    "conference_name": "neurips2025",
+    "pdf_found": true,
+    "pdf_path": "data\\conferences\\neurips2025\\pdfs\\3D_Equivariant_Visuomotor_Policy_Learning_via_Sphe_fb4a9ee9.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2505.16969v3.pdf",
+    "source_files": [
+      "C:\\Users\\FZFVF5\\OneDrive - General Motors\\Personal-GM\\Work\\Projects\\Others\\Research Reader\\data\\input\\neurips2025\\images\\20251205_182251.jpg"
+    ],
+    "created_at": "2025-12-27T08:48:51.351513",
+    "updated_at": "2025-12-28T11:25:55.863064",
+    "version": 1
+  }
+]
