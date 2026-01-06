@@ -359,7 +359,7 @@ elif page == "📄 Papers":
                         st.error("❌ No PDF")
                 
                 with col2:
-                    if paper.source_files:
+                    if paper.source_files and os.getenv("STREAMLIT_SERVER_HEADLESS") != "true":
                         source = Path(paper.source_files[0]).name
                         st.caption(f"📁 {source}")
                 
@@ -367,23 +367,43 @@ elif page == "📄 Papers":
                     st.caption(f"🕒 {paper.created_at.strftime('%Y-%m-%d')}")
                     
                 with col4:
-                    if paper.pdf_found and paper.pdf_path:
+                    if paper.pdf_url:
+                        st.link_button("📥", paper.pdf_url, help="Download PDF from arXiv")
+                    elif paper.pdf_found and paper.pdf_path:
                         pdf_path = Path(paper.pdf_path)
                         if pdf_path.exists():
-                            if paper.pdf_url:
-                                st.link_button("📥", paper.pdf_url, help="Download PDF from arXiv")
-                            else:
-                                with open(pdf_path, "rb") as pdf_file:
-                                    st.download_button(
-                                        label="📥",
-                                        data=pdf_file,
-                                        file_name=pdf_path.name,
-                                        mime="application/pdf",
-                                        key=f"dl_{paper.paper_id}",
-                                        help="Download PDF"
-                                    )
+                            with open(pdf_path, "rb") as pdf_file:
+                                st.download_button(
+                                    label="📥",
+                                    data=pdf_file,
+                                    file_name=pdf_path.name,
+                                    mime="application/pdf",
+                                    key=f"dl_{paper.paper_id}",
+                                    help="Download PDF"
+                                )
                         else:
-                            st.caption("❌ PDF missing")
+                            col_a, col_b = st.columns(2)
+                            with col_a:
+                                if st.button("📥 Auto", key=f"download_{paper.paper_id}", help="Download from arXiv"):
+                                    if not download_service:
+                                        st.error("⚠️ Download service unavailable on this deployment")
+                                    else:
+                                        with st.spinner("Searching arXiv..."):
+                                            conference_name = paper.conference_name or "neurips2025"
+                                            success, message = download_service.download_paper(paper, conference_name)
+                                        
+                                        if success:
+                                            st.success(f"✓ {message}")
+                                            if "Overview updated" in message:
+                                                st.info("📝 Detailed overview extracted from PDF")
+                                            st.rerun()
+                                        else:
+                                            st.error(f"✗ {message}")
+                                            st.session_state[f"show_manual_{paper.paper_id}"] = True
+                            
+                            with col_b:
+                                if st.button("🔗 Manual", key=f"manual_{paper.paper_id}", help="Enter arXiv URL"):
+                                    st.session_state[f"show_manual_{paper.paper_id}"] = True
                     else:
                         col_a, col_b = st.columns(2)
                         with col_a:
