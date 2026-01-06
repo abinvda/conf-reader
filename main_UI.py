@@ -283,7 +283,20 @@ elif page == "📄 Papers":
                 
                 with col_img:
                     if paper.source_files:
-                        source_path = Path(paper.source_files[0])
+                        # Convert absolute path to relative path for cross-platform compatibility
+                        abs_path = Path(paper.source_files[0])
+                        # Try to make it relative to project root
+                        try:
+                            if 'data' in abs_path.parts:
+                                # Extract path starting from 'data' directory
+                                data_idx = abs_path.parts.index('data')
+                                rel_path = Path(*abs_path.parts[data_idx:])
+                            else:
+                                rel_path = abs_path
+                        except (ValueError, IndexError):
+                            rel_path = abs_path
+                        
+                        source_path = Path(rel_path)
                         if source_path.exists() and source_path.suffix.lower() in ['.png', '.jpg', '.jpeg']:
                             if st.button("🖼️", key=f"zoom_{paper.paper_id}", help="Click to view full image"):
                                 st.session_state[f"show_image_{paper.paper_id}"] = not st.session_state.get(f"show_image_{paper.paper_id}", False)
@@ -308,7 +321,18 @@ elif page == "📄 Papers":
                 if st.session_state.get(f"show_image_{paper.paper_id}", False):
                     st.divider()
                     if paper.source_files:
-                        source_path = Path(paper.source_files[0])
+                        # Convert absolute path to relative path for cross-platform compatibility
+                        abs_path = Path(paper.source_files[0])
+                        try:
+                            if 'data' in abs_path.parts:
+                                data_idx = abs_path.parts.index('data')
+                                rel_path = Path(*abs_path.parts[data_idx:])
+                            else:
+                                rel_path = abs_path
+                        except (ValueError, IndexError):
+                            rel_path = abs_path
+                        
+                        source_path = Path(rel_path)
                         if source_path.exists():
                             st.image(str(source_path), caption=f"Source: {source_path.name}")
                     st.divider()
@@ -350,7 +374,7 @@ elif page == "📄 Papers":
                     else:
                         st.caption("_No overview available_")
                     
-                col1, col2, col3, col4 = st.columns(4, vertical_alignment="center")
+                col1, col3, col4 = st.columns(3, vertical_alignment="center")
                 
                 with col1:
                     if paper.pdf_found:
@@ -358,10 +382,10 @@ elif page == "📄 Papers":
                     else:
                         st.error("❌ No PDF")
                 
-                with col2:
-                    if paper.source_files and os.getenv("STREAMLIT_SERVER_HEADLESS") != "true":
-                        source = Path(paper.source_files[0]).name
-                        st.caption(f"📁 {source}")
+                # with col2:
+                #     if paper.source_files and os.getenv("STREAMLIT_SERVER_HEADLESS") != "true":
+                #         source = Path(paper.source_files[0]).name
+                #         st.caption(f"📁 {source}")
                 
                 with col3:
                     st.caption(f"🕒 {paper.created_at.strftime('%Y-%m-%d')}")
