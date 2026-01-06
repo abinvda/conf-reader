@@ -1,0 +1,51 @@
+# Research Paper Reader Configuration
+
+# Project Settings
+project:
+  default_conference: "neurips2025"
+  data_root: "data/input"
+
+# Folder Structure
+folders:
+  images_subdir: "images"
+  pdfs_subdir: "pdfs"
+  output_subdir: "output"
+
+# Model Settings
+model:
+  provider: "ollama"
+  name: "llama3.2-vision:11b" # TODO: There are many models available with ollama. Look into them.
+  temperature: 0.1
+  max_tokens: 2000
+
+# OCR Settings
+ocr:
+  provider: "paddleocr"  # Options: paddleocr, easyocr
+  language: "en"
+  confidence_threshold: 0.5
+
+# Processing Settings
+processing:
+  supported_extensions:
+    - ".pdf"
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+  max_image_size: 2000  # pixels # TODO: figure out how this affects the outcome.
+  batch_size: 5
+
+# Storage Settings
+storage:
+  database_path: "data/database/papers.db"
+  json_backup_path: "data/database/papers_backup.json"
+  
+# Deduplication Settings
+deduplication:
+  title_similarity_threshold: 0.90
+  author_similarity_threshold: 0.85
+  enable_doi_matching: true
+
+# Logging
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR
+  file: "logs/research_reader.log"
