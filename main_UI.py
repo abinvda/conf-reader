@@ -283,18 +283,20 @@ elif page == "📄 Papers":
                 
                 with col_img:
                     if paper.source_files:
-                        # Convert absolute path to relative path for cross-platform compatibility
-                        abs_path = Path(paper.source_files[0])
-                        # Try to make it relative to project root
-                        try:
-                            if 'data' in abs_path.parts:
-                                # Extract path starting from 'data' directory as string with forward slashes
-                                data_idx = abs_path.parts.index('data')
-                                rel_path = '/'.join(abs_path.parts[data_idx:])
+                        # Convert absolute Windows path to cloud-friendly path
+                        source_str = str(paper.source_files[0])
+                        
+                        # Extract path from 'data' directory onwards
+                        if 'data' in source_str:
+                            # Find 'data' in the path and extract everything from there
+                            data_idx = source_str.lower().find('data')
+                            if data_idx != -1:
+                                # Get substring from 'data' onwards and normalize to forward slashes
+                                rel_path = source_str[data_idx:].replace('\\', '/')
                             else:
-                                rel_path = str(abs_path)
-                        except (ValueError, IndexError):
-                            rel_path = str(abs_path)
+                                rel_path = source_str
+                        else:
+                            rel_path = source_str
                         
                         # Show button if it's an image file (trust database, check extension only)
                         if rel_path.lower().endswith(('.png', '.jpg', '.jpeg')):
