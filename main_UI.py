@@ -296,10 +296,11 @@ elif page == "📄 Papers":
                         except (ValueError, IndexError):
                             rel_path = abs_path
                         
-                        source_path = Path(rel_path)
-                        if source_path.exists() and source_path.suffix.lower() in ['.png', '.jpg', '.jpeg']:
+                        # Show button if it's an image file (trust database, check extension only)
+                        if str(rel_path).lower().endswith(('.png', '.jpg', '.jpeg')):
                             if st.button("🖼️", key=f"zoom_{paper.paper_id}", help="Click to view full image"):
                                 st.session_state[f"show_image_{paper.paper_id}"] = not st.session_state.get(f"show_image_{paper.paper_id}", False)
+                                st.session_state[f"image_path_{paper.paper_id}"] = str(rel_path)
                                 st.rerun()
                         else:
                             st.caption("📄")
@@ -320,21 +321,14 @@ elif page == "📄 Papers":
                 
                 if st.session_state.get(f"show_image_{paper.paper_id}", False):
                     st.divider()
-                    if paper.source_files:
-                        # Convert absolute path to relative path for cross-platform compatibility
-                        abs_path = Path(paper.source_files[0])
+                    # Use stored path from button click
+                    image_path = st.session_state.get(f"image_path_{paper.paper_id}")
+                    if image_path:
                         try:
-                            if 'data' in abs_path.parts:
-                                data_idx = abs_path.parts.index('data')
-                                rel_path = Path(*abs_path.parts[data_idx:])
-                            else:
-                                rel_path = abs_path
-                        except (ValueError, IndexError):
-                            rel_path = abs_path
-                        
-                        source_path = Path(rel_path)
-                        if source_path.exists():
-                            st.image(str(source_path), caption=f"Source: {source_path.name}")
+                            st.image(image_path, caption=f"Source: {Path(image_path).name}")
+                        except Exception as e:
+                            st.error(f"Could not load image: {e}")
+                            st.caption(f"Path attempted: {image_path}")
                     st.divider()
                 
                 if st.session_state.get(f"editing_overview_{paper.paper_id}", False):
@@ -547,7 +541,7 @@ elif page == "📈 Analytics":
     if not papers:
         st.info("No papers to analyze yet.")
     else:
-        col1, col2 = st.columns(3)
+        col1, col2 = st.columns(2)
         
         with col1:
             st.metric("Total Papers", len(papers))
@@ -558,27 +552,27 @@ elif page == "📈 Analytics":
         
         st.divider()
         
-        st.subheader("👥 Most Prolific Authors")
+        st.subheader("Good things incoming... later!")
         
-        author_counts = {}
-        for paper in papers:
-            for author in paper.authors:
-                author_counts[author.name] = author_counts.get(author.name, 0) + 1
+        # author_counts = {}
+        # for paper in papers:
+        #     for author in paper.authors:
+        #         author_counts[author.name] = author_counts.get(author.name, 0) + 1
         
-        if author_counts:
-            top_authors = sorted(author_counts.items(), key=lambda x: x[1], reverse=True)[:15]
+        # if author_counts:
+        #     top_authors = sorted(author_counts.items(), key=lambda x: x[1], reverse=True)[:15]
             
-            for author, count in top_authors:
-                col1, col2 = st.columns([3, 1])
-                with col1:
-                    st.write(author)
-                with col2:
-                    st.write(f"{count} paper(s)")
+        #     for author, count in top_authors:
+        #         col1, col2 = st.columns([3, 1])
+        #         with col1:
+        #             st.write(author)
+        #         with col2:
+        #             st.write(f"{count} paper(s)")
         
-        st.divider()
+        # st.divider()
         
-        no_pdf = [p for p in papers if not p.pdf_found]
-        if no_pdf:
-            st.subheader(f"⚠️ Papers Missing PDFs ({len(no_pdf)})")
-            for paper in no_pdf[:10]:
-                st.write(f"• {paper.title}")
+        # no_pdf = [p for p in papers if not p.pdf_found]
+        # if no_pdf:
+        #     st.subheader(f"⚠️ Papers Missing PDFs ({len(no_pdf)})")
+        #     for paper in no_pdf[:10]:
+        #         st.write(f"• {paper.title}")
