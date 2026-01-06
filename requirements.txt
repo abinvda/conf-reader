@@ -1,0 +1,31 @@
+# Core Dependencies
+pymupdf
+Pillow
+paddleocr
+paddlepaddle
+
+# Data Processing
+pydantic
+python-dotenv
+rapidfuzz
+
+# Storage
+chromadb
+
+# CLI & Output
+rich
+tqdm
+
+# Utilities
+requests
+PyYAML
+
+# Testing
+pytest
+pytest-cov
+
+# UI
+streamlit
+
+# PDF downloading
+requests
