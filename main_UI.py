@@ -288,19 +288,19 @@ elif page == "📄 Papers":
                         # Try to make it relative to project root
                         try:
                             if 'data' in abs_path.parts:
-                                # Extract path starting from 'data' directory
+                                # Extract path starting from 'data' directory as string with forward slashes
                                 data_idx = abs_path.parts.index('data')
-                                rel_path = Path(*abs_path.parts[data_idx:])
+                                rel_path = '/'.join(abs_path.parts[data_idx:])
                             else:
-                                rel_path = abs_path
+                                rel_path = str(abs_path)
                         except (ValueError, IndexError):
-                            rel_path = abs_path
+                            rel_path = str(abs_path)
                         
                         # Show button if it's an image file (trust database, check extension only)
-                        if str(rel_path).lower().endswith(('.png', '.jpg', '.jpeg')):
+                        if rel_path.lower().endswith(('.png', '.jpg', '.jpeg')):
                             if st.button("🖼️", key=f"zoom_{paper.paper_id}", help="Click to view full image"):
                                 st.session_state[f"show_image_{paper.paper_id}"] = not st.session_state.get(f"show_image_{paper.paper_id}", False)
-                                st.session_state[f"image_path_{paper.paper_id}"] = str(rel_path)
+                                st.session_state[f"image_path_{paper.paper_id}"] = rel_path
                                 st.rerun()
                         else:
                             st.caption("📄")
