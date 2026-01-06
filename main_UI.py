@@ -34,7 +34,11 @@ def get_database():
 
 @st.cache_resource
 def get_download_service():
-    return DownloadService()
+    try:
+        return DownloadService()
+    except Exception as e:
+        st.warning(f"⚠️ Download service unavailable: {str(e)}")
+        return None
 
 if "selected_paper" not in st.session_state:
     st.session_state.selected_paper = None
@@ -214,8 +218,11 @@ elif page == "📄 Papers":
     
     with col2:
         if st.button("📥 Download All Missing PDFs", type="primary"):
-            with st.spinner("Downloading missing PDFs..."):
-                stats = download_service.download_all_missing()
+            if not download_service:
+                st.error("⚠️ Download service unavailable on this deployment")
+            else:
+                with st.spinner("Downloading missing PDFs..."):
+                    stats = download_service.download_all_missing()
                 
                 if stats['success'] > 0:
                     st.success(f"✓ Downloaded {stats['success']} PDF(s) with detailed overviews")
@@ -381,9 +388,12 @@ elif page == "📄 Papers":
                         col_a, col_b = st.columns(2)
                         with col_a:
                             if st.button("📥 Auto", key=f"download_{paper.paper_id}", help="Download from arXiv"):
-                                with st.spinner("Searching arXiv..."):
-                                    conference_name = paper.conference_name or "neurips2025"
-                                    success, message = download_service.download_paper(paper, conference_name)
+                                if not download_service:
+                                    st.error("⚠️ Download service unavailable on this deployment")
+                                else:
+                                    with st.spinner("Searching arXiv..."):
+                                        conference_name = paper.conference_name or "neurips2025"
+                                        success, message = download_service.download_paper(paper, conference_name)
                                     
                                     if success:
                                         st.success(f"✓ {message}")
@@ -415,9 +425,12 @@ elif page == "📄 Papers":
                                     cancel = st.form_submit_button("Cancel")
                                 
                                 if submit and url:
-                                    with st.spinner("Downloading from URL..."):
-                                        conference_name = paper.conference_name or "neurips2025"
-                                        success, message = download_service.download_paper_from_url(paper, conference_name, url)
+                                    if not download_service:
+                                        st.error("⚠️ Download service unavailable on this deployment")
+                                    else:
+                                        with st.spinner("Downloading from URL..."):
+                                            conference_name = paper.conference_name or "neurips2025"
+                                            success, message = download_service.download_paper_from_url(paper, conference_name, url)
                                         
                                         if success:
                                             st.success(f"✓ {message}")
